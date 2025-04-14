@@ -9,10 +9,10 @@ use TEIPipe::Tools;
 sub new {
   my $this  = shift;
   my $class = ref($this) || $this;
-  my $opts = shift;
+  #my $opts = shift;
   my $self  = {};
   bless $self, $class;
-  
+
   return $self;
 }
 

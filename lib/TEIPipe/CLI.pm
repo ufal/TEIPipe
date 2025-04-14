@@ -40,7 +40,7 @@ sub help {
     while(my $tool = shift @tools){
       if(exists $available_tools{$tool}){
         TEIPipe::Tools::load_tool($tool);
-        #call help for 
+        # call help for command/tool
         no strict 'refs';
         &{"TEIPipe::Tools::${tool}::help"}();
       } else {
