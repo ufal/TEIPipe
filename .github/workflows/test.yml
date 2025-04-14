@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Perl ${{ matrix.perl-version }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        perl-version: ['5.32', '5.36', '5.38', '5.40.1']
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Perl
+        uses: shogo82148/actions-setup-perl@v1
+        with:
+          perl-version: ${{ matrix.perl-version }}
+
+      - name: Cache cpanm modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.cpanm
+          key: perl-${{ matrix.perl-version }}-cpanm-${{ hashFiles('**/dist.ini', '**/cpanfile') }}
+          restore-keys: |
+            perl-${{ matrix.perl-version }}-cpanm-
+            
+      - name: Install Dist::Zilla and dependencies
+        run: |
+          cpanm --notest Dist::Zilla
+          dzil authordeps --missing | cpanm --notest
+          dzil listdeps --missing | cpanm --notest
+
+      - name: Build and test
+        env:
+          AUTHOR_TESTING: 1
+          AUTOMATED_TESTING: 1
+          RELEASE_TESTING: 1
+        run: |
+          dzil build
+          dzil test

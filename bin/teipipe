@@ -1,0 +1,14 @@
+#!/usr/bin/env perl
+
+# ABSTRACT: Command line interface to TEIPipe
+
+use warnings;
+use strict;
+use File::Spec;
+use File::Basename 'dirname';
+use lib File::Spec->rel2abs( File::Spec->catdir( dirname(__FILE__), File::Spec->updir, 'lib' ) );
+
+use TEIPipe::CLI;
+
+
+exit TEIPipe::CLI->run(@ARGV);

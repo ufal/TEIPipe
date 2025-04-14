@@ -1,0 +1,13 @@
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
+ [API CHANGES]
+
+ [BUG FIXES]
+
+ [DOCUMENTATION]
+  - initial release
+ [ENHANCEMENTS]
+
+
+0.0.0
