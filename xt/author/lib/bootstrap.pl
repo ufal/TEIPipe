@@ -10,9 +10,6 @@ use XML::LibXML qw(:libxml);
 use XML::CanonicalizeXML;
 
 
-# temporary includes
-use Text::Diff;
-
 
 my $base_dir = abs_path( File::Spec->catdir( dirname(__FILE__), File::Spec->updir ) );
 
