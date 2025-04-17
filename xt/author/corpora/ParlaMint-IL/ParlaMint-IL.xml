@@ -81,7 +81,7 @@
                <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a
     project that aims to (1) create a multilingual set of comparable corpora of parliamentary
     proceedings uniformly encoded according to the
-    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>,
     covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
     machine-translate them to English; (3) make the corpora available through concordancers; and
     (4) build use cases in Political Sciences and Digital Humanities based on the corpus
@@ -121,8 +121,6 @@
             <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
             <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
-            <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
-            <xi:include href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
          </classDecl>
       </encodingDesc>
       <profileDesc>
