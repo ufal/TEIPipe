@@ -57,13 +57,16 @@ sub new {
     my $step = $module->new($step_opt->{setting}, seen => \%steps_seen, global => $opts->{global}//{});
     for my $type ($step->type()) {
       die "ERROR: only first command is allowed to be an input type\n" if $type eq 'input' && @{$self->{steps}} > 0;
-      die "ERROR: first command has to be am input type\n" if $type ne 'input' && @{$self->{steps}} == 0;
+      die "ERROR: first command has to be an input type\n" if $type ne 'input' && not($self->{input});
       $steps_seen{$type} = 0 unless exists $steps_seen{$type};
       $steps_seen{$type} += 1;
     }
-    push @{$self->{steps}}, $step;
+    if($self->{input}){
+      push @{$self->{steps}}, $step;
+    } else {
+      $self->{input} = $step
+    }
   }
-  $self->{input} = shift @{$self->{steps}};
   bless $self, $class;
 
   #print STDERR Dumper($self);

@@ -13,11 +13,14 @@ use TEIPipe::Common;
 use Data::Dumper;
 
 
+my %type = map { $_ => 1 } qw/input/;
 
 sub type {
-  return qw/input/;
+  shift;
+  my $type = shift;
+  return !!$type{$type} if $type;
+  return keys %type;
 }
-
 
 sub new  {
   my $this  = shift;
