@@ -7,7 +7,7 @@ use File::Basename 'dirname';
 use File::Spec;
 use File::Find;
 
-use TEIPipe::XML;
+use TEIPipe::Formats::XML;
 use TEIPipe::Common;
 
 use Data::Dumper;
@@ -54,7 +54,7 @@ sub next {
   return if $self->{task_position} >= @{$self->{task_list}};
   my %task = %{$self->{task_list}->[$self->{task_position}]};
   $self->{task_position} += 1;
-  my $xml = TEIPipe::XML::open_xml($task{absolute_path});
+  my $xml = TEIPipe::Formats::XML::open_xml($task{absolute_path});
   die "ERROR: invalid input file\n" unless $xml;
   return {
     %task,
@@ -86,7 +86,7 @@ sub add_files {
   } elsif ($mode eq 'corpus') {
     # read corpus root and get all component files
     my $corpus_root_folder = dirname($input);
-    my @includes = TEIPipe::XML::corpus_includes($input);
+    my @includes = TEIPipe::Formats::XML::corpus_includes($input);
     $self->add_files('files', map {File::Spec->catfile($corpus_root_folder,$_)} @includes);
     $self->add_files('files',$input); # add also corpus file (which will be only copied)
   } elsif ($mode eq 'dir') {
