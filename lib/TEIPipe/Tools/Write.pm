@@ -45,9 +45,8 @@ sub new  {
 sub run {
   my $self = shift;
   my $task = shift;
-
   if($self->{mode} eq 'file'){
-    my $path = File::Spec->catfile($self->{base_dir}, $task->{relative_path});
+    my $path = File::Spec->catfile($self->{base_dir}, $task->relative_input_path);
     my $dir = dirname($path);
     File::Path::mkpath($dir) unless -d $dir;
     if($self->{to_modify}){
@@ -55,7 +54,7 @@ sub run {
       TEIPipe::Formats::XML::save_to_file($task->{xml}, $path);
     } else {
       print STDOUT "INFO: copying to $path\n";
-      copy($task->{absolute_path},$path)
+      copy($task->absolute_input_path,$path)
     }
   } else {
     print STDOUT TEIPipe::Formats::XML::to_string($task->{xml});

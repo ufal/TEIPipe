@@ -9,6 +9,7 @@ use File::Find;
 
 use TEIPipe::Formats::XML;
 use TEIPipe::Common;
+use TEIPipe::Data;
 
 use Data::Dumper;
 
@@ -40,7 +41,7 @@ sub new  {
   bless $self, $class;
   $self->add_files($local_opts->{mode},@{$local_opts->{input}});
   $self->set_base_dir($local_opts->{mode},@{$local_opts->{input}});
-  $_->{relative_path} = File::Spec->abs2rel($_->{absolute_path}, $self->{base_dir}) for (@{$self->{task_list}});
+  $_->{relative_input_path} = File::Spec->abs2rel($_->{absolute_input_path}, $self->{base_dir}) for (@{$self->{task_list}});
   return $self;
 }
 
@@ -54,13 +55,13 @@ sub next {
   return if $self->{task_position} >= @{$self->{task_list}};
   my %task = %{$self->{task_list}->[$self->{task_position}]};
   $self->{task_position} += 1;
-  my $xml = TEIPipe::Formats::XML::open_xml($task{absolute_path});
+  my $xml = TEIPipe::Formats::XML::open_xml($task{absolute_input_path});
   die "ERROR: invalid input file\n" unless $xml;
-  return {
-    %task,
+  return TEIPipe::Data->new(
+    task => {%task},
     text => $xml->{raw},
     xml => $xml->{dom},
-  }
+  )
 }
 
 sub set_base_dir {
@@ -68,7 +69,7 @@ sub set_base_dir {
   my $mode = shift;
   my $path = shift;
   if($mode eq 'files'){
-    $self->{base_dir} = TEIPipe::Common::deepest_common_folder(map {$_->{absolute_path}} @{$self->{task_list}})
+    $self->{base_dir} = TEIPipe::Common::deepest_common_folder(map {$_->{absolute_input_path}} @{$self->{task_list}})
   } elsif ($mode eq 'corpus') {
     $self->{base_dir} = dirname($path);
   } else {
@@ -108,7 +109,7 @@ sub add_files {
 sub add_file {
   my $self = shift;
   my $file = shift;
-  push @{$self->{task_list}},{absolute_path => $file};
+  push @{$self->{task_list}},{absolute_input_path => $file};
 }
 
 

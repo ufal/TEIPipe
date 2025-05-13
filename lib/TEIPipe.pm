@@ -77,7 +77,7 @@ sub run {
   my $self = shift;
   while(my $input = $self->{input}->next()) {
     $input->{to_modify} = TEIPipe::Formats::XML::tei_texts($input->{xml});
-    print "INFO: processing ",$input->{relative_path},"\n";
+    print "INFO: processing ",$input->relative_input_path,"\n";
     my $step_result = $input;
     for my $step (@{$self->{steps}}) {
       next if !$input->{to_modify} && $step->type('modify');
