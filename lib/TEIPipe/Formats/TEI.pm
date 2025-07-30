@@ -1,6 +1,6 @@
-package TEIPipe::Formats::XML;
+package TEIPipe::Formats::TEI;
 
-# ABSTRACT: TEIPipe::Formats::XML - basic manipulation with XML files
+# ABSTRACT: TEIPipe::Formats::TEI - basic manipulation with TEI files
 
 use strict;
 use warnings;

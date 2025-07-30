@@ -51,13 +51,13 @@ sub run {
     File::Path::mkpath($dir) unless -d $dir;
     if($self->{to_modify}){
       print STDOUT "INFO: saving to $path\n";
-      TEIPipe::Formats::XML::save_to_file($task->{xml}, $path);
+      TEIPipe::Formats::TEI::save_to_file($task->{xml}, $path);
     } else {
       print STDOUT "INFO: copying to $path\n";
       copy($task->absolute_input_path,$path)
     }
   } else {
-    print STDOUT TEIPipe::Formats::XML::to_string($task->{xml});
+    print STDOUT TEIPipe::Formats::TEI::to_string($task->{xml});
   }
 }
 

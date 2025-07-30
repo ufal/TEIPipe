@@ -13,7 +13,7 @@ lib/TEIPipe.pm
 lib/TEIPipe/CLI.pm
 lib/TEIPipe/Common.pm
 lib/TEIPipe/Data.pm
-lib/TEIPipe/Formats/XML.pm
+lib/TEIPipe/Formats/TEI.pm
 lib/TEIPipe/Tools.pm
 lib/TEIPipe/Tools/NameTag.pm
 lib/TEIPipe/Tools/NameTag/API.pm
