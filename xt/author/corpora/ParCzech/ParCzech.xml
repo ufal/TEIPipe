@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParCzech" xml:lang="cs">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="cs">Český parlamentní korpus, Poslanecká sněmovna [ParCzech]</title>
+        <title type="main" xml:lang="en">Czech parliamentary corpus, Chamber of Deputies [ParCzech]</title>
+        <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+        <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+        <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
+        <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
+        <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021">ps2021</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+          <resp xml:lang="en">TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="cs">LINDAT/CLARIAH-CZ: Digitální výzkumná infrastruktura pro jazykové technologie, umění a humanitní vědy</orgName>
+          <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>live</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="196185" xml:lang="cs">196185 promluv</measure>
+        <measure unit="speeches" quantity="196185" xml:lang="en">196185 speeches</measure>
+        <measure unit="words" quantity="30771825" xml:lang="cs">30771825 slov</measure>
+        <measure unit="words" quantity="30771825" xml:lang="en">30771825 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="cs">LINDAT/CLARIAH-CZ: Digitální výzkumná infrastruktura pro jazykové technologie, umění a humanitní vědy</orgName>
+          <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+          <ref target="https://www.lindat.cz">www.lindat.cz</ref>
+        </publisher>
+        <availability status="free">
+          <licence>https://creativecommons.org/publicdomain/zero/1.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>.</p>
+        </availability>
+        <date when="2023-08-21">2023-08-21</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+          <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+          <idno type="URI" subtype="parliament">https://www.psp.cz/eknih/</idno>
+          <date from="2013-11-25" to="2023-07-26">25.11.2013 - 26.07.2023</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p><ref target="https://ufal.mff.cuni.cz/parczech">ParCzech</ref> is a project on compiling Czech parliamentary data into annotated corpora</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="6832"/>
+          <tagUsage gi="body" occurs="6832"/>
+          <tagUsage gi="div" occurs="6832"/>
+          <tagUsage gi="note" occurs="243108"/>
+          <tagUsage gi="pb" occurs="34185"/>
+          <tagUsage gi="u" occurs="196185"/>
+          <tagUsage gi="seg" occurs="519160"/>
+          <tagUsage gi="kinesic" occurs="13625"/>
+          <tagUsage gi="vocal" occurs="19550"/>
+          <tagUsage gi="incident" occurs="180"/>
+          <tagUsage gi="gap" occurs="1086"/>
+          <tagUsage gi="desc" occurs="34441"/>
+          <tagUsage gi="time" occurs="30301"/>
+          <tagUsage gi="ref" occurs="44923"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include href="taxonomy-parla.legislature.xml"/>
+        <xi:include href="taxonomy-meeting.parts.xml"/>
+        <xi:include href="taxonomy-parla.links.xml"/>
+        <xi:include href="taxonomy-speaker_types.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
+          <name type="address">Sněmovní 176/4</name>
+          <name type="city">Praha</name>
+          <name key="CZ" type="country">Czech Republic</name>
+          <date from="2013-11-25" to="2023-07-26">25.11.2013 - 26.07.2023</date>
+        </setting>
+      </settingDesc>
+      <textClass>
+        <catRef scheme="#parla.legislature" target="#parla.bi #parla.lower"/>
+      </textClass>
+      <particDesc>
+        <xi:include href="ParCzech-listOrg.xml"/>
+        <xi:include href="ParCzech-listPerson.xml"/>
+      </particDesc>
+      <langUsage>
+        <language ident="cs" xml:lang="cs">čeština</language>
+        <language ident="en" xml:lang="cs">angličtina</language>
+        <language ident="cs" xml:lang="en">Czech</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+<!-- SAMPLE -->
+  <xi:include href="ps2013-050-07-005-262.xml"/>
+  <xi:include href="ps2017-040-02-005-012.xml"/>
+  <xi:include href="ps2021-071-07-000-000.xml"/>
+</teiCorpus>

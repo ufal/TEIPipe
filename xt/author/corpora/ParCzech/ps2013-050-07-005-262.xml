@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ps2013-050-07-005-262" xml:lang="cs" ana="#parla.agenda">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="cs">Český parlamentní korpus, Poslanecká sněmovna, 2016-10-27 ps2013-050-07-005-262 [ParCzech]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus, Chamber of Deputies, 2016-10-27 ps2013-050-07-005-262 [ParCzech]</title>
+            <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna, 2016-10-27, 262. Ústní interpelace</title>
+            <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27</title>
+            <title xml:lang="cs" type="short">262. Ústní interpelace</title>
+            <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
+            <meeting ana="#parla.meeting #parla.lower" n="ps2013/050">ps2013/050</meeting>
+            <meeting ana="#parla.sitting #parla.lower" n="ps2013/050/07">ps2013/050/07</meeting>
+            <meeting ana="#parla.agenda #parla.lower" n="ps2013/050/262">ps2013/050/262</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="cs">LINDAT/CLARIAH-CZ: Digitální výzkumná infrastruktura pro jazykové technologie, umění a humanitní vědy</orgName>
+               <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>live</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="158" xml:lang="cs">158 promluv</measure>
+            <measure unit="speeches" quantity="158" xml:lang="en">158 speeches</measure>
+            <measure unit="words" quantity="17968" xml:lang="cs">17968 slov</measure>
+            <measure unit="words" quantity="17968" xml:lang="en">17968 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="cs">LINDAT/CLARIAH-CZ: Digitální výzkumná infrastruktura pro jazykové technologie, umění a humanitní vědy</orgName>
+               <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+               <ref target="https://www.lindat.cz">www.lindat.cz</ref>
+            </publisher>
+            <availability status="free">
+               <licence>https://creativecommons.org/publicdomain/zero/1.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>.</p>
+            </availability>
+            <date when="2023-08-21">2023-08-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+               <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+               <idno type="URI" subtype="parliament">https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm</idno>
+               <date when="2016-10-27">27.10.2016</date>
+            </bibl>
+            <recordingStmt>
+               <recording type="audio">
+                  <media xml:id="ps2013-050-07-005-262.audio1" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102714281442.mp3" url="2013ps/audio/2016/10/27/2016102714281442.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio2" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102714381452.mp3" url="2013ps/audio/2016/10/27/2016102714381452.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio3" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102714481502.mp3" url="2013ps/audio/2016/10/27/2016102714481502.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio4" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102714581512.mp3" url="2013ps/audio/2016/10/27/2016102714581512.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio5" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102715081522.mp3" url="2013ps/audio/2016/10/27/2016102715081522.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio6" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102715181532.mp3" url="2013ps/audio/2016/10/27/2016102715181532.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio7" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102715281542.mp3" url="2013ps/audio/2016/10/27/2016102715281542.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio8" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102715381552.mp3" url="2013ps/audio/2016/10/27/2016102715381552.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio9" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102715481602.mp3" url="2013ps/audio/2016/10/27/2016102715481602.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio10" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102715581612.mp3" url="2013ps/audio/2016/10/27/2016102715581612.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio11" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102716081622.mp3" url="2013ps/audio/2016/10/27/2016102716081622.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio12" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102716181632.mp3" url="2013ps/audio/2016/10/27/2016102716181632.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio13" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102716281642.mp3" url="2013ps/audio/2016/10/27/2016102716281642.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio14" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102716381652.mp3" url="2013ps/audio/2016/10/27/2016102716381652.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio15" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102716481702.mp3" url="2013ps/audio/2016/10/27/2016102716481702.mp3"/>
+                  <media xml:id="ps2013-050-07-005-262.audio16" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/10/27/2016102716581712.mp3" url="2013ps/audio/2016/10/27/2016102716581712.mp3"/>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p><ref target="https://ufal.mff.cuni.cz/parczech">ParCzech</ref> is a project on compiling Czech parliamentary data into annotated corpora</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="176"/>
+               <tagUsage gi="pb" occurs="16"/>
+               <tagUsage gi="u" occurs="158"/>
+               <tagUsage gi="seg" occurs="287"/>
+               <tagUsage gi="kinesic" occurs="6"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="desc" occurs="11"/>
+               <tagUsage gi="time" occurs="16"/>
+               <tagUsage gi="ref" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
+               <name type="address">Sněmovní 176/4</name>
+               <name type="city">Praha</name>
+               <name key="CZ" type="country">Czech Republic</name>
+               <date when="2016-10-27" ana="#parla.sitting">2016-10-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm" n="1" xml:id="ps2013-050-07-005-262.pb1" corresp="#ps2013-050-07-005-262.audio1"/>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u1">
+               <seg xml:id="ps2013-050-07-005-262.u1.p1">262.  Ústní interpelace </seg>
+               <seg xml:id="ps2013-050-07-005-262.u1.p2">které jsou určeny na předsedu vlády České republiky a ostatní členy vlády.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u1.p3">Na začátek mi dovolte, abych přečetl omluvy. Z celého jednacího dne se omlouvá pan poslanec Zdeněk Soukup, dále dne 27. 10. od 14.30 do konce jednání z pracovních důvodů se omlouvá paní poslankyně Berdychová, od 14 hodin z pracovních důvodů se omlouvá po zbytek dne pan poslanec Sedláček, dále od 14.30 hodin do konce jednacího dne z pracovních důvodů se omlouvá pan poslanec Volný, dále dnešního dne od 14.30 do konce jednacího dne se omlouvá paní poslankyně Jaroslava Pokorná Jermanová, od 14.30 do konce jednacího dne z pracovních důvodů se omlouvá paní poslankyně Helena Válková, dnešní den od 14.30 do konce jednacího dne se omlouvá pan poslanec Martin Komárek, od 14.30 hodin do konce jednacího dne ze zdravotních důvodů se omlouvá paní poslankyně Balaštíková a dále z celého odpoledne z pracovních důvodů se omlouvá paní poslankyně Marksová.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u1.p4">Dnes jsme za účasti ověřovatelů vylosovali pořadí poslanců, v němž budou vystupovat a podávat ústní interpelace nejprve na předsedu vlády pana Bohuslava Sobotku či na vládu České republiky a poté na ostatní členy vlády. Vzhledem k tomu, že premiér Bohuslav Sobotka je omluven, budou ústní interpelace poslanců na ostatní členy vlády následovat bezprostředně po vyčerpání interpelací na předsedu vlády.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u1.p5">Nyní dávám slovo poslanci Jiřímu Zlatuškovi, který byl vylosován na prvním místě, aby přednesl ústní interpelaci na předsedu vlády České republiky Bohuslava Sobotku, a připraví se Marek Černoch. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Jiří Zlatuška</note>
+            <u who="#JiriZlatuska.1957" ana="#regular" xml:id="ps2013-050-07-005-262.u2" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u2.p1">Já jsem chtěl pana premiéra interpelovat stran jeho vystupování, ze kterého, pokud by si z nás politiků mládež brala příklad, tak mám trošku obavy, že, jak se vždycky říká, že mládež ztrácí dobré mravy nebo dělá to či ono, tak že by to mohlo být špatné. A jednalo se mi o jistý rozpor v jeho chování v okamžiku, kdy jako jeden z těch čtyř ústavních činitelů podepsal prohlášení, kterým vlastně peskoval jednoho ze svých ministrů za to, že tento ministr, tedy ministr Herman, přivítal v České republice hosta, a na druhou stranu rozpor tady s tímto a nekonáním směrem k jinému panu ministrovi, k ministru Chovancovi, u kterého se nad jakékoliv pochybnosti ukázalo, že opsal svoji práci na Západočeské univerzitě. Tento rozpor si myslím, že vede k tomu, že mládež si z toho může brát příklad, že nemá zdravit toho, kdo se jí nelíbí, má se třeba chovat nevšímavě k učitelům, a v okamžiku, kdy se jedná o zkoušky a podobně, tak má opsat, co může, jenom aby jí to prošlo. Ale pokud tady pan premiér není, tak tu interpelaci asi nebudu pokládat a nechám si to pro jinou příležitost. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u3" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u3.p1">Já vám děkuji. Nyní pan poslanec Marek Černoch a připraví se pan poslanec František Vácha. Prosím, máte slovo.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u4" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u4.p1">Děkuji za slovo, pane místopředsedo. Mrzí mě, že tady není pan premiér Bohuslav Sobotka, a budu interpelovat v otázce neprůhledných veřejných zakázek, které probíhají na Ministerstvu dopravy. Začnu veřejnou zakázkou na dodávky tabulek registračních značek.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u4.p2">Tato zakázka byla dle mých informací opakovaně vyhlašována a rušena, přičemž pokaždé došlo k uzavření dalšího smluvního vztahu bez výběrového řízení se společností Hicon. Tato firma dodává registrační značky státu již 26 let, aniž by přitom vzešla z jakékoliv soutěže. Do dnešního dne společnost Hicon za dodávky registračních značek inkasovala od státu cca 4 miliardy korun. Jde tak ze strany Ministerstva dopravy o udržování bezprecedentního stavu, kdy jsou ústředním orgánem státu ze státní pokladny vypláceny enormní sumy peněz. Ty značně převyšují částku za nákup registračních značek, než by tomu bylo v případě vypsání otevřeného a transparentního výběrového řízení. Ministerstvo dopravy, které řídí ministr Ťok, se tímto také dopouští nedovolené veřejné podpory, která je podle článku 107 Smlouvy o fungování Evropské unie nepřípustná.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u4.p3">Dále bych se rád zeptal na společnost Kapsch, kdy nebylo schopno Ministerstvo dopravy připravit otevřené zadávací řízení na dodavatele mýtného systému, i když již od počátku plnění původní smlouvy se společností Kapsch bylo zcela zřejmé, kdy tato smlouva skončí. Dostalo dokonce milionovou pokutu od Úřadu pro ochranu hospodářské soutěže, protože ten důvod byl, že jednalo Ministerstvo dopravy nezákonně. Podobných případů je samozřejmě víc, nejenom na Ministerstvu dopravy. Ale z mého pohledu toto není možné tolerovat.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u4.p4">Proto bych se rád pana premiéra zeptal, jak je možné, že firma Hicon dodává bez výběrového řízení registrační značky 26 let za 4 miliardy korun bez výběrového řízení, a jak je možné, že Ministerstvo dopravy porušilo zákon, dostalo milionovou pokutu a nic s tímto nedělá. <note type="comment">(Poslanec je upozorňován na čas.)</note> Jaké kroky pan premiér podnikne, aby bylo toto vyřízeno. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u5" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u5.p1">Děkuji a žádám ostatní kolegyně a kolegy, aby dodrželi čas, který je určený na interpelaci.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u5.p2">Prosím, pane poslanče, máte slovo, připraví se pan poslanec Mackovík.</seg>
+            </u>
+            <note type="speaker">Poslanec František Vácha</note>
+            <u who="#FrantisekVacha.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u6" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u6.p1">Děkuji za slovo. Moje interpelace se týká problematiky strategického partnerství, které bylo podepsáno při návštěvě čínského prezidenta v České republice v březnu tohoto roku. Rád bych si touto interpelací ujasnil některé věci ohledně tohoto partnerství.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u6.p2">Pane předsedo vlády, jaké je právní postavení zmíněného strategického partnerství v rámci našeho ústavního pořádku a lze jej považovat za dokument na úrovni mezinárodní smlouvy? Bylo toto strategické partnerství předem projednáno vládou České republiky, resp. informoval někdo vládu o přípravě tohoto dokumentu? Jednala o tomto strategickém partnerství vůbec někdy vláda, teď myslím před i po podpisu, a jaký byl výsledek tohoto jednání? Tento dokument totiž na mnoha místech zavazuje, a dokonce úkoluje vládu k určitým činnostem. Jaký je standardní postup na úrovni vlády, pokud se jedná o přístup české vlády k podobným dokumentům na stejné úrovni? Jaký vliv může mít dokument, pokud není standardní mezinárodní smlouvou na politiku české vlády nebo dalších ústavních činitelů? Na jakých ústavních principech zavazuje tento dokument jednat vládu České republiky? Znovu připomínám, že tento dokument na mnoha místech zavazuje, a dokonce úkoluje vládu k určitým činnostem, aktivitám nebo krokům. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u7" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u7.p1">Já vám děkuji, pane poslanče. Nyní požádám o vystoupení pana poslance Mackovíka, připraví se pan poslanec Hovorka. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Stanislav Mackovík</note>
+            <u who="#StanislavMackovik.1967" ana="#regular" xml:id="ps2013-050-07-005-262.u8" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u8.p1">Dobrý den dámy a pánové, pane předsedající. Já bych chtěl pana premiéra oslovit s dotazem, proč po třiceti letech provozu letecké záchranné služby byl proveden tendr na provozovatele a proč tedy byly vybrány firmy, které nesplňují ani to základní zadání, které vyhlásila vláda. To znamená, proč nám na střediska letecké záchranné služby přijde provozovatel, jehož vrtulník není zařazen do kategorie A, to znamená, klesá bezpečnost provozu výrazně od 1. ledna 2017, protože před zhruba jedenácti lety bylo v rámci Evropské unie řečeno, že leteckou záchrannou službu mohou létat pouze vrtulníky v kategorii A. Slovensko a jeho provozovatel provozuje vrtulník, který toto nesplňuje. Tato verze má přijít například do Ústí nad Labem a myslím si, že to je obrovské riziko.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u8.p2">Dále se chci zeptat, jestli vláda, když tento tendr připravovala, vypracovala harmonogram tak, aby od 1. ledna mohlo fungovat vše to, co fungovalo doposud, to znamená včetně záchrany osob v nepřístupném terénu pomocí lezeckého vybavení, tak, aby vrtulníky byly vybaveny standardizovanou zástavbou pro přístrojové vybavení, dobíjení přístrojů a radiostanic.</seg>
+               <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm" n="2" xml:id="ps2013-050-07-005-262.pb2" corresp="#ps2013-050-07-005-262.audio2"/>
+               <note type="time">
+            <time when="2016-10-27T14:40:00">(14.40 hodin)</time>
+          </note>
+               <seg xml:id="ps2013-050-07-005-262.u8.p3">Dále bych chtěl vědět, zda posádky, které budou plnit úkoly, resp. piloti, u všech provozovatelů, tedy na všech deseti střediscích LZS, budou mít minimální nálet tisíc hodin na kapitána, jak je stanoveno předpisem. Chtěl bych také vědět, zda provozní náklady, když jsme přidali dvě střediska státním provozovatelům, budou vyšší, nebo nižší, když se státní provozovatelé nechali slyšet, že nemají ani personální, ani technické kapacity na zajištění provozu LZS. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u9" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u9.p1">Já vám také děkuji, pane poslanče. Nyní tedy požádám pana poslance Ludvíka Hovorku a připraví se pan poslanec Miroslav Kalousek. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Ludvík Hovorka</note>
+            <u who="#LudvikHovorka.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u10" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u10.p1">Děkuji za slovo. Vážený pane premiére, interpeloval jsem pana ministra Zaorálka ve věci registrace státních příslušníků Ukrajiny v systému Visapoint pro podávání žádostí o pobytová oprávnění. Podle mých informací není možné se do toho systému regulérně přihlásit, a to nejen na Ukrajině. Zmiňuji Vietnam a Bělorusko. Systém je údajně spouštěn denně na pár minut náhodně a všechny registrace vychytají robotické servery, kterými disponuje mafie, která se velmi slušně obohacuje. Tisk a internet je plný inzerátů, že určitá firma může zajistit vízum občanům Ukrajiny za příslušný tučný poplatek zaplacený na účet do Německa. Znamená to, že někdo na tomto podivném systému docela slušně vydělává, a rozhodně to nepřispívá k dobrému jménu České republiky v zahraničí.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u10.p2">Podle zpráv Bezpečnostní informační služby napadli systém Visapoint kyberzločinci, kteří podle zpravodajců krátce po zavedení systému vytvořili automatizované nástroje, jež rychle obsazovaly všechny termíny pohovorů v systému, a tím znemožnili řádným zájemcům registraci termínu. Zájemcům pak nezbylo nic jiného než platit pachatelům této trestné činnosti nemalé částky za zprostředkování registrace, píše BIS ve zprávě za rok 2013. O rok později BIS pokračuje: Zavedení několika funkcionalit do informačního systému přineslo dočasné zlepšení situace. Někteří zprostředkovatelé však na tuto úpravu v systému zareagovali, přizpůsobili se jí a i nadále informační systém Visapoint zneužívají k vlastnímu obohacení. Podle informací se platí částky od 4 tis. do 16 tis. korun za možnost získat termín na pohovor.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u10.p3">Počet víz se snížil z roku 2007 z 27 tisíc na loňských 3 tisíce osob. Je tady obrovský kontrast mezi tím, co Česká republika potřebuje - lékaře, zdravotní sestry -</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u11" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u11.p1">Já se omlouvám, pane poslanče, váš čas. Položte otázku, kterou chcete zodpovědět po panu premiérovi.</seg>
+            </u>
+            <note type="speaker">Poslanec Ludvík Hovorka</note>
+            <u who="#LudvikHovorka.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u12" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u12.p1">Ano. Chtěl bych se zeptat, pane premiére, co uděláte pro to, aby tento systém udělování víz se změnil a aby se českému průmyslu i českému zdravotnictví dostalo příležitosti získat pracovníky z Ukrajiny. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u13" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u13.p1">Já vám také děkuji. Nyní pan poslanec Kalousek, připraví se paní poslankyně Němcová. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Miroslav Kalousek</note>
+            <u who="#MiroslavKalousek.1960" ana="#regular" xml:id="ps2013-050-07-005-262.u14" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u14.p1">Děkuji za slovo, pane předsedající. Vážený pane řádně omluvený předsedo vlády, nejenom mě, ale celou širokou veřejnost pobouřilo prohlášení čtyř nejvyšších ústavních činitelů vůči Čínské lidové republice. Nepřijatelně servilním způsobem se distancovalo od kroků člena vlády, který přijetím Jeho Svatosti dalajlámy pouze plnil své pracovní povinnosti ministra kultury svobodné země. Jsme přesvědčeni, že toto prohlášení ponížilo Českou republiku, její občany a zpochybnilo náš kredit ve svobodném světě. Vystavilo nám nálepku země, pro kterou je lidská svoboda obchodovatelnou komoditou.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u14.p2">Dovolte mi proto, pane premiére, dvě otázky. Za prvé: Co konkrétně vás přimělo k podpisu pod toto prohlášení? Za druhé: Za jakých okolností jste svůj podpis ochoten odvolat? Děkuji za odpovědi.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u15" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u15.p1">Já vám také děkuji, i za dodržení času. Nyní tedy paní poslankyně Němcová, připraví se paní poslankyně Kovářová. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Miroslava Němcová</note>
+            <u who="#MiroslavaNemcova.1952" ana="#regular" xml:id="ps2013-050-07-005-262.u16" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u16.p1">Děkuji za slovo. I já se obracím ve své interpelaci na předsedu vlády, a to též ve věci společného prohlášení čtyř nejvyšších ústavních činitelů ve vztahu k Číně.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u16.p2">Já bych se chtěla nejprve zeptat pana předsedy vlády, co jsou ty principy strategického partnerství a jestli v těchto principech strategického partnerství je výslovně uvedeno, že nikdo z představitelů a možná ani občanů České republiky se nesmí setkat se 14. dalajlámou, protože to byla ta rozbuška, která způsobila asi to setkání čtyř ústavních činitelů, a honem rychle napsali dokument, který já považuji za zavrženíhodný a považuji ho, že je na hranici suverenity našeho státu.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u16.p3">Chtěla bych se také zeptat, když pan předseda vlády řekl, že vlastně jenom zopakovali, že to nebylo nic nového, že jenom zopakovali to, co je v tom strategickém partnerství, v tom dokumentu, uvedeno, tak jestli bylo třeba ho zopakovat, tak jestli má vláda v úmyslu nějakou periodicitu, to znamená, že bude nutno zopakovat toto prohlášení dvakrát měsíčně, nebo dvakrát ročně, nebo každý čtvrtrok. Tak to bych také ráda věděla, aby Čína nezapomněla, že jsme její poslušné loutky, jak často jí to musíme sdělovat.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u16.p4">A potom se chci zeptat na to, když v prohlášení píšete, že osobní aktivity některých českých politiků nejsou výrazem změny oficiální politiky naší země, tak jestli jste podobné prohlášení posílali třeba do Evropské komise, když Sněmovna přijala rozhodnutí o tom, že nechce udělit Turkům bezvízový styk, jestli jste kontaktovali generální štáb NATO, když se objevila aktivita, která říká, že naše země by měla vystoupit z této organizace, protože, nezlobte se na mě - ale to jsou věci daleko závažnější, případné vystoupení z NATO, jak je navrhováno, nebo udělení víz Turecku -</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u17" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u17.p1">Já se omlouvám, paní poslankyně, váš čas!</seg>
+            </u>
+            <note type="speaker">Poslankyně Miroslava Němcová</note>
+            <u who="#MiroslavaNemcova.1952" ana="#regular" xml:id="ps2013-050-07-005-262.u18" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u18.p1">- které ohrožují naši bezpečnost. Děkuji za odpovědi.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u19" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r11">
+               <seg xml:id="ps2013-050-07-005-262.u19.p1">Já vám také děkuji. Nyní paní poslankyně Kovářová a připraví se paní poslankyně Jana Fischerová. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslankyně Věra Kovářová</note>
+            <u who="#VeraKovarova.1964" ana="#regular" xml:id="ps2013-050-07-005-262.u20" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r12">
+               <seg xml:id="ps2013-050-07-005-262.u20.p1">Vážený pane premiére, zaznamenala jsem, že koordinátor vlády pro digitální agendu České republiky pan Ing. Tomáš Prouza se má stát volebním manažerem ČSSD. Vedle toho je pan Prouza také státním tajemníkem pro evropské záležitosti, ve kterém s ohledem na to, co se v Evropě děje, netrpí nedostatkem práce. Víte, ve mně to vyvolává obavy. Obavy z toho, zda pan Ing. Prouza všechny činnosti dokáže skloubit, a také obavy z toho, zda vládní prohlášení ohledně vážnosti, jakou přikládáte problematice digitální agendy, byla míněna vážně. Vzhledem k tomu, že si v ní Česká republika v současnosti nestojí moc dobře, bych to považovala za krajně nešťastné.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u20.p2">Vážený pane premiére, můžete mé obavy rozptýlit? Děkuji za odpověď.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u21" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r13">
+               <seg xml:id="ps2013-050-07-005-262.u21.p1">Já vám děkuji za vaši interpelaci. Nyní požádám paní poslankyni Janu Fischerovou a připraví se paní poslankyně Marta Semelová. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslankyně Jana Fischerová</note>
+            <u who="#JanaFischerova.1955" ana="#regular" xml:id="ps2013-050-07-005-262.u22" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050248.htm#r14">
+               <seg xml:id="ps2013-050-07-005-262.u22.p1">Děkuji za slovo. Vážený pane premiére, mám interpelaci na téma rozpočet roku 2017, ale s tím souvisí můj konkrétní dotaz ohledně nárůstu státních zaměstnanců. Za vaší vlády konkrétně byl přijat velký počet nových státních zaměstnanců. Členové vaší vlády se většinou vymlouvají, že se jedná hlavně o učitele nebo vojáky apod. Chtěla bych se proto zeptat, jak se díváte na vývoj u vás na Úřadu vlády, kde, jak jistě se mnou souhlasíte, pracují především a hlavně úředníci.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u22.p2">V návrhu státního rozpočtu na rok 2016 Občanská demokratická strana upozorňovala, že na Úřadu vlády vzroste počet zaměstnanců z 576 na 692, tedy celkem o 116. Dále v návrhu státního rozpočtu právě na rok 2017 je plánováno, že počet míst vzroste na 768, tedy o dalších 76. Z toho vyplývá, že za dva roky na Úřadu vlády tak vzroste počet zaměstnanců o 33 %. Vezmeme-li v úvahu rostoucí počet státních zaměstnanců ve většině resortů, tak v této souvislosti ale rostou i platové nároky. Teď jenom shrnu. V roce 2013 náklady na státní zaměstnance dosahovaly částky přes 132 mld. korun. V roce 2016 se už vydá přes 149 mld. korun a v roce 2017 se plánuje navýšení nákladů až na 162 mld. korun.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u22.p3">Proto můj dotaz zní: Pane premiére, považujete podobné jednání za hospodárné? Děkuji vám za odpověď.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm" n="3" xml:id="ps2013-050-07-005-262.pb3" corresp="#ps2013-050-07-005-262.audio3"/>
+            <note type="time">
+          <time when="2016-10-27T14:50:00">(14.50 hodin)</time>
+        </note>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u23" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u23.p1">Já vám také děkuji. Nyní tedy paní poslankyně Marta Semelová a připraví se pan poslanec Marek Černoch. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Marta Semelová</note>
+            <u who="#MartaSemelova.1960" ana="#regular" xml:id="ps2013-050-07-005-262.u24" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u24.p1">Vážený pane premiére, vaše vláda se v koaliční smlouvě zavázala, že bude řešit situaci neúplných rodin, které strádají z důvodu zanedbání povinné výživy ze strany druhého rodiče, a to mimo jiné předložením zákona o náhradním výživném. To by bylo jistě záslužné. Je hanbou všech polistopadových vlád, že neudělaly nic pro to, aby se tato situace řešila. Přitom v České republice je situace přímo alarmující. V neúplných rodinách zde žije kolem 500 tisíc dětí, přičemž výživné neplatí 38,5 % rodičů, což se týká zhruba 200 tisíc dětí. K tomu tristní vymahatelnost práva. Tyto rodiny se tak nezřídka pohybují na hranici chudoby a propadají se do dluhové pasti.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u24.p2">V rozhovoru pro deník Právo ze dne 17. září jste uvedl, že vás - cituji - "hrozně štve, že se nedaří prosadit zákon o náhradním výživném pro samoživitelky, které jsou v zoufalé situaci. Diskuse už trvá velmi dlouho, je potřeba ji ukončit a předložit konkrétní zákon, ať se k němu jednotlivé strany vyjádří." Tolik citace. To se však dosud nestalo.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u24.p3">V dubnu letošního roku tak návrh zákona o náhradním výživném předložila KSČM a několikrát jsme navrhli jeho předřazení tak, aby se co nejdříve projednal a schválil ve prospěch dětí žijících v neúplných rodinách. Velmi mě překvapilo, že ČSSD náš návrh jako jeden muž nepodpořila. Svědčí o tom i hlasování o předřazení projednávání tohoto návrhu na této schůzi Sněmovny, kdy proti mému návrhu hlasovalo 29 poslanců ČSSD, 11 se jich zdrželo. Ptám se proto, proč ČSSD návrh nepodporuje a kdy dáte do souladu své sliby a činy. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u25" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u25.p1">Já vám také děkuji. Nyní tedy pan poslanec Marek Černoch a připraví se pan poslanec Mackovík. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u26" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u26.p1">Děkuji za slovo. Pane premiére, Rada Evropy na svém posledním zasedání schválila rezoluci, která je nazvaná Dopad evropské populační dynamiky na migrační politiku. Budu citovat. "Snížení počtu obyvatelstva v produktivním věku v Evropě vytváří potřebu přilákat mladé kvalifikované migranty." Proto se ptám, kdo jsou ti mladí kvalifikovaní migranti. Kolik z těchto migrantů, kteří přicházejí v obrovských vlnách, má kvalifikaci a zdali Evropa nemá stále ještě dost nezaměstnaných.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u26.p2">Druhá citace, z mého pohledu ještě více skandální. "Reakce na populační výzvy by mělo být lepší využití proudu migračního přílivu do Evropy." Nevím, co to znamená. Jestli je to zvýhodnění multikulturních rodin, zvýhodnění rodin imigrantů nebo tlak na ženy, aby měly s migranty, kteří přicházejí z Afriky a islámských zemí, děti. Za sebe říkám, že naší povinností a zodpovědností je nastavit co nejlepší podmínky pro naše rodiny, aby mohly mít a chtěly hlavně mít více dětí s vědomím, že je uživí, dát našim lidem práci a nastavit spravedlivý sociální systém.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u26.p3">Vím, že Rada Evropy není instituce, která je výkonná, její váha a vliv je ale tak velký, že její rezoluce jsou velice často v Bruselu přetaveny ve směrnice a nařízení pro členské státy. Ptám se vás, pane premiére: V případě, že by Evropská unie prosazovala přístup využití migrační vlny ke zvýšení populace a obsazení pracovních míst od členských států, odmítnete to, nebo přijmete? Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u27" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u27.p1">Já vám také děkuji. A jako poslední vystoupí pan poslanec Stanislav Mackovík. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Stanislav Mackovík</note>
+            <u who="#StanislavMackovik.1967" ana="#regular" xml:id="ps2013-050-07-005-262.u28" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u28.p1">Ještě jednou děkuji za slovo. Já bych navázal na tu předchozí část své interpelace, zůstávám tedy u stejného tématu, to je provoz letecké záchranné služby. A chci se zeptat, kdy proběhne vlastní zaškolení zdravotnického personálu s tím létajícím personálem na těch základnách, kde došlo ke změně provozovatele, pokud tento tendr tedy bude pokračovat a bude podepsán, a kdy dojde k sesouhlasení dokumentace provozovatele vrtulníků a k tomu, že provozovatel vrtulníků a jeho piloti budou mít dostatečnou znalost prostředí, aby v daném prostředí mohli poskytovat činnost letecké záchranné služby. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u29" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u29.p1">Já vám také děkuji. Upozorňuji Poslaneckou sněmovnu, že jsme vyčerpali přihlášky na interpelace na předsedu vlády a nyní budou následovat ústní interpelace na ostatní členy vlády.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u29.p2">Vyzývám tedy poslance Petra Bendla, aby přednesl interpelaci na ministra zemědělství Mariana Jurečku a zahájil tak blok odpovědí členů vlády na interpelace poslanců. Připraví se poslanec Stanislav Mackovík. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u30" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u30.p1">Děkuji za slovo, pane předsedající. Pane ministře, podle mého hlubokého přesvědčení země potřebuje spíš více rybníků, zjednodušeně řečeno, než přehrad, až na některé opravdu významné jednotlivé výjimky. Veřejným míněním hýbe zájem státu prostřednictvím Povodí Vltavy projednávat, případně do budoucna realizovat jakousi retenční nádrž, anebo přehradní nádrž na řece Berounce a stát prostřednictvím Povodí Vltavy, pokud vím, investoval nemalé finanční prostředky na to, aby vznikla jakási studie. Já se chci zeptat a chci se ujistit, zda pokračují přípravné práce takovéto aktivity, či nikoliv, a pokud ano, kdo to vlastně tedy připravuje a má-li to nějaký hluboký smysl. Děkuji vám.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u31" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u31.p1">Já vám také děkuji a požádám pana ministra o odpověď. Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr zemědělství ČR Marian Jurečka</note>
+            <u who="#MarianJurecka.1981" ana="#regular" xml:id="ps2013-050-07-005-262.u32" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u32.p1">Dobré odpoledne, vážený pane předsedající, milé kolegyně, vážení kolegové.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u32.p2">Pane poslanče Bendle prostřednictvím pana předsedajícího, k vaší interpelaci musím říct, že po povodni v roce 2013 byly vzneseny požadavky dotčených obcí na dolním toku Berounky k prověření všech možností, jakým způsobem zabezpečit ochranu těchto obcí před povodněmi. Jedním z těchto řešení samozřejmě bylo i vyhodnocení technických opatření, která by k tomu mohla přispět. Takže ve spolupráci a po dohodě s obcemi, se Středočeským krajem Povodí Vltavy tedy nechalo zadat studii, jakým způsobem díky retenční nádrži by bylo možné ochránit dolní tok Berounky a samozřejmě i následnou část povodí Vltavy, která logicky spadá pod přítok Berounky. Z této studie vyplynulo, že teoreticky je tady možné takovéto vodní dílo, takovouto retenční nádrž zrealizovat. Byly tam vyčísleny řekněme i náklady na tuto retenční nádrž včetně dopadů na počet obyvatel a hodnotu majetku, který by byl takto chráněn.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u32.p3">Nicméně já jsem se tím případem sám osobně zabýval, byl jsem i v dané lokalitě přímo na místě, jednal jsem s představiteli veřejnosti i zástupci obcí, kteří na tom jednání byli přítomni, a tak jak jsem se s tím dílem já osobně seznámil, tak já nepodporuji tady realizaci takovéto retenční vodní nádrže v těchto parametrech. Teď je samozřejmě také na posouzení a vyjádření Středočeského kraje, jestli dále vůbec tu myšlenku rozpracovávat. Já si myslím, že takovéto dílo takovýchto parametrů je myšlenka, která je nerealizovatelná. V údolí Berounky se soustředíme spíše na ta opatření, která souvisejí se zadržením vody v krajině, to znamená především v zemědělské, lesnické půdě. Tyto aktivity podporujeme. Nastavujeme víceméně přísnější pravidla pro zemědělce z hlediska přístupu a ochrany půdy ve vztahu především k protierozním opatřením. A pak samozřejmě jsme také v letošním roce výrazným způsobem spustili podporu výstavby malých vodních nádrží, malých vodních rybníků jak z národních zdrojů, kde podporujeme tyto rybníky s výměrou nad dva hektary, tak z operačního programu Rybářství, kde jsou podporovány i rybníky pod tuto výměru.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u32.p4">Takže tak jsou nastaveny tyto kroky. Já sám jsem veřejnosti, představitelům obcí jasně zaslal text, kde jsem pod tímto textem podepsán já spolu s generálním ředitelem Povodí Vltavy, že neplánujeme dále pokračovat v těchto aktivitách a nehodláme pokračovat v jakýchkoliv krocích, které by vedly k dalšímu pokračování realizace záměru výstavby retenční nádrže na Berounce. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u33" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050249.htm#r11">
+               <seg xml:id="ps2013-050-07-005-262.u33.p1">Děkuji. Pan poslanec, jak vidět, vám položí doplňující otázku. Prosím.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm" n="4" xml:id="ps2013-050-07-005-262.pb4" corresp="#ps2013-050-07-005-262.audio4"/>
+            <note type="time">
+          <time when="2016-10-27T15:00:00">(15.00 hodin)</time>
+        </note>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u34" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u34.p1">Já jsem přesvědčen, že bychom měli udělat za tím projektem nějakou definitivní tečku a už se k němu nevracet. Koneckonců čísla, která známe z povodní roku 2002, ukazují, že ta retenční ani jiná nádrž by vlastně tu povodeň nezachytila. Problém dolní části Berounky by nevyřešila. Naopak by je spláchla daleko rychleji a daleko větší vlnou, protože by nestačila ta retence, kterou by takováto přehrada unesla. A škody, které by se napáchaly vybudováním takovéto přehradní nádrže na přírodě, kterou Berounka protéká, by myslím byly natolik nenahraditelné, že je lepší držet zkrátka dále poldery, území, na kterých se nadá stavět a dělat protipovodňová opatření jiného typu, než se zabývat tím, aby Berounka neustále byla vystavováno tlakům, jestli se tam bude do budoucna stavět, či nikoliv.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u34.p2">Já bych se přimlouval za nějakou definitivní tečku.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u35" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u35.p1">Děkuji. Pane ministře, budete odpovídat? <vocal type="speaking"><desc>(Ano.)</desc></vocal> Prosím.</seg>
+            </u>
+            <note type="speaker">Ministr zemědělství ČR Marian Jurečka</note>
+            <u who="#MarianJurecka.1981" ana="#regular" xml:id="ps2013-050-07-005-262.u36" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u36.p1">Sám za sebe a myslím, že i za mandát, který mám vyčleněný v rámci působnosti v této vládě, jsem naprosto jasně, černé na bílém, tu tečku vystavil. Žádnou vyšší už dát neumím. Může se stát, že přijde někdo za dvacet let, přijde někdo za šedesát let a vyhodnotí, že se klimatické podmínky v České republice tak výrazně změnily, že tu myšlenku oživí. Myslím, že nikdo soudný teď, v dané situaci, při znalosti současných klimatických stavů v České republice o to usilovat nebude. Hledáme jiná opatření. Ale na rovinu říkám, asi definitivní, stoprocentní tečku tady nikdo nemůže vystavit vzhledem k budoucnosti, protože nevíme, co bude za 80, za 100 let.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u37" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u37.p1">Děkuji. Jako další v pořadí byl vylosován se svou interpelací pan poslanec Stanislav Mackovík a připraví se pan poslanec Josef Hájek. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Stanislav Mackovík</note>
+            <u who="#StanislavMackovik.1967" ana="#regular" xml:id="ps2013-050-07-005-262.u38" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u38.p1">Vážený pane předsedající, páni ministři, dámy a pánové. Na pana ministra zdravotnictví se obracím s problematikou letecké záchranné služby. My jsme v lednu letošního roku projednali podmínky zadávacího tendru i na výboru zdravotnictví. Takto to šlo do vlády. Na vládě došlo k výrazné změně a tendr se celý překopal. Výsledkem toho je, že doposud v České republice létali čtyři provozovatelé, teď jich bude létat pět, díky čemuž budeme asi ojedinělých fenoménem, protože jsme jediný stát v Evropské unii, na jehož území bude letecká záchranná služba provozována dvěma zahraničními provozovateli. Z čehož jeden z těch zahraničních provozovatelů, to je firma ATE ze Slovenska, má statisticky - a my jsme se na výboru bavili o tom, že nechceme do těch parametrů dávat čistě jenom tu bezpečnostní stránku, kdy se skutečně něco může stát. Nicméně mezitím uteklo poměrně hodně vody a došlo k dalším karambolům. Takže ta slovenská firma od roku 1998 do současnosti přišla o čtyři posádky včetně vrtulníků a pacientů při leteckých katastrofách.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u38.p2">Proč tato firma byla vybrána, když - za prvé - má toto negativní hledisko v rámci bezpečnosti? Proč tato firma byla vybrána, když jeden z jejích vrtulníků má přijít na stanoviště, ten vrtulník je starší dvaceti let a nesplňuje kategorii A, což samo o sobě dává předpoklad vzniku letecké nehody nebo katastrofy? Dále se chci zeptat, jestli už je podepsána nějaká smlouva s některým z provozovatelů a jak to bude se záchranou s podvěsem od 1. ledna 2017. To znamená záchrany pomocí vrtulníku v nepřístupném terénu pomocí leteckého vybavení. A poslední otázka. Jak bude sladěn harmonogram zdravotnických částí posádek s letovou částí posádky a s vrtulníkem? Pokud přijdou 1. ledna na stanici, tak si nemyslím, že můžou plnohodnotně fungovat. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u39" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u39.p1">Děkuji a požádám pana ministra, aby vám odpověděl. Prosím.</seg>
+            </u>
+            <note type="speaker">Ministr zdravotnictví ČR Svatopluk Němeček</note>
+            <u who="#SvatoplukNemecek.1972" ana="#regular" xml:id="ps2013-050-07-005-262.u40" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u40.p1">Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, odpovím to, co odpovědět mohu, protože pan poslanec ví, že výběrové řízení dosud nebylo uzavřeno. Že je velmi pravděpodobné, a my se to dozvíme během těchto dnů, že jeden ze soutěžících podal odvolání k Úřadu na ochranu hospodářské soutěže. Do té doby, než úřad odpoví a než ten tendr bude definitivně rozhodnut, tak některé věci úplně komentovat nemohu, abych nepoškodil pozici státu.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p2">Nicméně ta situace je taková, že jsme zdědili systém nastavený tak, že tady zajišťují leteckou záchrannou službu soukromí provozovatelé spolu s těmi státními. Zajišťují ji formou obchodních kontraktů a ty obchodní kontrakty bohužel k 31. 12. letošního roku končí a my jsme byli povinni je znovu vysoutěžit.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p3">Přiznám se vám, že bych byl velmi rád, kdybychom vůbec nic soutěžit nemuseli, protože to není úplně jednoduchá situace. Je to tendr za 1,2 mld. korun. Provázejí ho věci, které jsou v těchto tendrech obvyklé. To znamená, jednotlivé konkurenční firmy proti sobě vypouštějí různé informace a podobně. A nejsem tím úplně nadšený.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p4">Jenom si ještě dovolím říci, že ve vládě bude teď v nejbližší době projednáván materiál, který by měl řešit koncepční situaci z hlediska zajištění letecké záchranné služby, na kterém se podílela meziresortní komise, a v podstatě ten materiál říká, že kromě armády a policie po jedné základně by ty ostatní základny měl převzít státní provozovatel.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p5">Protože, přiznám se, že z mnoha výtek záchranářů a lidí, kteří spolupracují s tou leteckou záchrannou službou, cítím nespokojenost s tím, že dochází ke změně. A já tomu rozumím. Protože je to o nějaké lidské spolupráci. Ti lidé se mnoho let znají, vědí, že situaci v tom regionu mají zmapovanou, vědí, co od sebe mohou čekat, a teď přijde nějaký tendr a přijde sem někdo úplně jiný a oni budou muset tu spolupráci nastavovat znovu. Nicméně bohužel toto nám říká zákon o veřejných zakázkách, takto je to nastaveno a ty základy se prostě musely znovu soutěžit a vyhrál je ten, kdo dal nejnižší nabídku. Tak jak tady pan poslanec řekl, my jsme se snažili maximálně vyjít vstříc té odborné veřejnosti. Dali jsme nějaký návrh, nicméně ten tendr schvalovala vláda. Předcházelo mu meziresortní připomínkové řízení a ten tendr došel k nějakým změnám.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p6">Nicméně součástí toho tendru byla podmínka personálního vybavení, technické vybavení. V té komisi seděli odborníci na leteckou přepravu, na vrtulníkovou přepravu, kteří konstatovali, že všichni soutěžící splnili ty podmínky, a já tady rozhodně nemůžu nic zpochybňovat. Má to znovu projednat Úřad pro ochranu hospodářské soutěže a ten bude konstatovat, zdali tomu bylo tak, jak tvrdí meziresortní komise, či nikoliv, jak tvrdí jeden z těch, který přišel o byznys na čtyřech těch základnách. Poté se tedy rozhodne.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p7">Co se týče té otázky, jak jsme s tím daleko. Ve dvou základnách již byla podepsána smlouva, a nic tedy nebrání tomu, aby došlo k nějaké kooperaci mezi zdravotnickou záchrannou službou a tím provozovatelem. Čtyři základny s velkou pravděpodobností, jak se vyjádřil jeden z těch neúspěšných uchazečů, bude řešit Úřad pro ochranu hospodářské soutěže. Pevně věřím, že rozhodne, ať tak, nebo tak, rychle a okamžitě poté my se přizpůsobíme rozhodnutí úřadu. A věřím, že nic nebude bránit tomu, aby docházelo ke kooperaci mezi tím provozovatelem letecké záchranné služby a zdravotnickou záchrannou službou.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u40.p8">Ostatní věci z hlediska bezpečnosti, z hlediska splnění podmínek toho tendru posuzovala komise a já jako ministr nejsem schopen v tomto případě nějakým způsobem vstupovat do názorů odborníků, kteří se k tomu vyjádřili.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u41" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u41.p1">Děkuji, pane ministře. Pan poslanec se ještě chystá na doplňující otázku. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Stanislav Mackovík</note>
+            <u who="#StanislavMackovik.1967" ana="#regular" xml:id="ps2013-050-07-005-262.u42" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u42.p1">Jen doplňující otázka. Padlo tady, že se dvěma provozovateli je podepsána smlouva. To bylo s těmi státními, nebo s těmi nestátními provozovateli? A pokud tedy, tak s kým ta smlouva byla podepsána? Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u43" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u43.p1">Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr zdravotnictví ČR Svatopluk Němeček</note>
+            <u who="#SvatoplukNemecek.1972" ana="#regular" xml:id="ps2013-050-07-005-262.u44" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050250.htm#r11">
+               <seg xml:id="ps2013-050-07-005-262.u44.p1">S těmi státními to tedy není formou smlouvy, ale je to formou dohody. Tak jak víte, z toho stávajícího rozsahu, kde policie zabezpečovala hlavní město Prahu a Středočeský kraj a armáda Plzeňský kraj, tak od 1. 1. na základě dohody mezi resorty bude armáda zajišťovat ještě Jihočeský kraj. Tam to zase má nějaké konsekvence, ale myslím, že to bude téma další interpelace, jestli se nepletu. A policie bude zajišťovat Jihočeský kraj.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u44.p2">Ale firma DSA zvítězila ve dvou tendrech - na kraj Liberecký a teď si nevzpomenu, na který druhý. Tam, kde se hlásila v těch dvou tendrech, kde dala tedy nejnižší nabídku, tak už byla smlouva podepsána, tuším tento týden.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm" n="5" xml:id="ps2013-050-07-005-262.pb5" corresp="#ps2013-050-07-005-262.audio5"/>
+            <note type="time">
+          <time when="2016-10-27T15:10:00">(15.10 hodin)</time>
+        </note>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u45" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u45.p1">Děkuji vám. Nyní interpelace pana poslance Josefa Hájka, který interpeluje pana ministra průmyslu a obchodu Jana Mládka ve věci financování provozu Hlavní báňské záchranné stanice v Ostravě. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Josef Hájek</note>
+            <u who="#JosefHajek.1956" ana="#regular" xml:id="ps2013-050-07-005-262.u46" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u46.p1">Vážený pane předsedající, páni ministři, konkrétně pane ministře Mládku, hornická činnost zejména v podzemí patří obecně k nejnáročnějším profesím a povoláním. Hlubinné dobývání ložisek zejména černého uhlí v České republice je realizováno v podmínkách zvýšených rizik způsobených hloubkou dobývání, geologickými podmínkami, zhoršenými klimatickými podmínkami či rizikem důlních otřesů či výronů plynů. Tyto ztěžující faktory mohou vyústit v krizové situace. Pro jejich zdolávání jsou nejčastěji využity záchranářské čety z Hlavní báňské záchranné stanice v Ostravě. Vím, o čem hovořím. Po dobu 31 let jsem byl aktivním důlním záchranářem. Záchranáři Hlavní báňské záchranné stanice v Ostravě jsou díky svému technickému a personálnímu vybavení schopni nejen profesionálně zdolávat havárie či úrazy v podzemí OKD, ale i v dalších místech pod zemí, pod vodou či na povrchu, na jejichž zdolávání nemají ostatní složky integrovaného záchranného systému potřebné technické vybavení či potřebné znalosti.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u46.p2">Hlavní báňská záchranná stanice v Ostravě je dceřinou společností OKD, která je stoprocentním vlastníkem této společnosti, a tudíž financování provozu Hlavní báňské záchranné stanice je výrazně závislé na ekonomické situaci společnosti OKD. Tato skutečnost samozřejmě vyvolává výraznou nejistotu pro garantování chodu této společnosti jak v současnosti, tak zejména v budoucnosti, kdy se předpokládá útlum hornické činnosti.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u46.p3">Akceschopnost jednotek Hlavní báňské záchranné stanice musí být z mého pohledu garantovaná bez ohledu na finanční situaci společnosti OKD. V této souvislosti si vám, pane ministře, dovolím udělit následující otázku: Jakým způsobem chce Ministerstvo průmyslu a obchodu, do jehož gesce patří oblast hornictví, zajistit další provoz a chod Hlavní báňské záchranné stanice v Ostravě, aby její akceschopnost nebyla podmíněna ekonomickou situací společnosti OKD? Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u47" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u47.p1">Já vám také děkuji. Požádám pana ministra Mládka, aby vám odpověděl. Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr průmyslu a obchodu ČR Jan Mládek</note>
+            <u who="#JanMladek.1960" ana="#regular" xml:id="ps2013-050-07-005-262.u48" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u48.p1">Vážené paní poslankyně, vážení páni poslanci, vážený pane poslanče, děkuji za interpelaci a dovolte mi říct několik slov.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u48.p2">Na Ministerstvu průmyslu a obchodu jsme si vědomi složité situace Hlavní báňské záchranné služby Ostrava, která, jak jste sám říkal, je dceřinou společností OKD, toho času v insolvenci, podniku, který možná projde reorganizací a možná také ne. Samozřejmě že nás rovněž znepokojuje to, že by se mohlo stát, že tato soukromá záchranná služba bude nefunkční, a pak nastane nějaké důlní neštěstí, ke kterému nebude mít kdo nastoupit. Toto nebezpečí není žádné virtuální, abstraktní. To se v minulých letech stalo v Rakousku, kdy při zrušení státní záchranné báňské služby potom neměl kdo nastoupit. Nastupovali hasiči, kteří na to nebyli kvalifikováni, a vedlo to ke ztrátám na lidských životech. Čili věnujeme se tomu velmi vážně od doby, kdy probíhá krize kolem OKD, resp. insolvence.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u48.p3">Chtěl bych zdůraznit dvě věci, že zájmem státu není zachraňovat jednu konkrétní akciovku, i když je to HBZS Ostrava, ale zájmem státu je zajistit službu, kterou tato společnost poskytuje, protože problém HBZS Ostrava je v tom, že má dva druhy činností. Ona poskytuje záchrannou službu, ale vedle toho má čistý byznys, kterým se věnuje ukládání popílků. Čili má tam čistě ekonomickou aktivitu, která se zachraňováním lidských životů nemá nic společného.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u48.p4">Po zvážení všech okolností a v zásadě velmi obtížně možné státní pomoci do soukromé společnosti podnikatelského typu, která není neziskovou organizací, která poskytuje záchrannou službu, jsme se rozhodli pro řešení, které v prvním kroku jako ideový záměr již schválila vláda, a to že bude vytvořena skutečně Hlavní báňská záchranná služba státní. Pravděpodobně to bude s pomocí podniku PKÚ. Finální materiál včetně financování bude předložen do konce roku. Čili bude skutečně Hlavní báňská záchranná služba ve státních rukou, která bude jakoby nadřízena těm jiným báňským záchranným službám, ať už státním, nebo soukromým, protože například stát má také báňskou záchrannou službu, která obsluhuje uranové doly, a je to nepochybně funkční jednotka.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u48.p5">Čili tímto způsobem se chceme postarat o zajištění služeb, které dává Hlavní báňská záchranná služba Ostrava, to jest, že bude státní záchranná služba hlavní báňská a v případě potřeby převezme lidi a činnosti, které v této době dělá Hlavní báňská záchranná služba Ostrava. Všechny ostatní varianty vypadaly jako daleko komplikovanější, protože bychom se dostali do poměrně složitého nákupu akcií nebo části činnosti podniku od podniku v insolvenci, což je záležitost komplikovaná, tuto věc může správce kdykoli zpochybnit, jestli byla cena férová. Zároveň si myslím, že tohle to je věc, která v případě problému je schopna zajistit tu činnost, kterou Hlavní báňská záchranná služba vykonává, převzetím lidí a činností. Protože tady platí to okřídlené, že na hlavní báňské záchranné činnosti jsou nejcennější lidé a jejich schopnosti.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u48.p6">Děkuji za pozornost.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u49" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u49.p1">Děkuji vám. Pan poslanec položí ještě doplňující otázku. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Josef Hájek</note>
+            <u who="#JosefHajek.1956" ana="#regular" xml:id="ps2013-050-07-005-262.u50" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u50.p1">Ona to nebude ani tak doplňující otázka, spíš poděkování panu ministrovi, že tuto problematiku ministerstvo bere vážně. A pro mé kolegy je skutečně prioritní to, aby byla garantovaná bezpečnost v podzemí. Děkuju.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u51" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u51.p1">Také vám děkuji. Přečtu jednu omluvu. Dnes od 15 hodin do konce jednání se omlouvá paní poslankyně Pavla Golasowská.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u51.p2">Nyní vystoupí se svou interpelací pan poslanec Jiří Zlatuška. Interpeluje pana vicepremiéra Pavla Bělobrádka ve věci nefunkčního informačního systému VaVaI a nezákonnosti. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Jiří Zlatuška</note>
+            <u who="#JiriZlatuska.1957" ana="#regular" xml:id="ps2013-050-07-005-262.u52" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u52.p1">Vážený pane předsedající, úřad pana vicepremiéra Bělobrádka neplní svou zákonnou povinnost provozovatele, kterou je poskytnutí programového prostředku pro kontrolu dodávek dat do informačního systému VaVaI, to jsou systémy CEP, RIV, VES a CEA, a pro generaci průvodky, a neumožňuje tím plnění zákonných povinností poskytovatelům dodávajících data do informačního systému VaVaI. Poskytovatelé nemohli dodržet zákonný termín 7. září 2016 pro dodání dat do systému dat RIV a nemohli předávat dodávky dat o projektech do registru CEP, a tím uvolňovat účelovou podporu pro příjemce. Tento stav dodnes přetrvává. Na tento problém bylo upozorňováno Ministerstvem školství. Náměstek ministryně pan Plaga 31. srpna 2016 upozorňoval na nedostatky ve financování. Dostalo se mu odpovědi od náměstka Markse, která se nezakládá na pravdě. Nicméně v té odpovědi byl alespoň slib zprovoznění těchto věcí do první poloviny října. Nedošlo k tomu.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u52.p2">Jaká bude z tohoto vyvozena osobní odpovědnost za tento zjevně nezákonný stav a za stav nefunkčnosti systému navzdory mediálním proklamacím o tom, že systém byl zprovozněn? Funguje pouze jako prohlížeč, nikoli jako systém, který umožňuje zákonem požadované funkce.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u53" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050251.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u53.p1">Děkuji vám. Vzhledem k tomu, že pan vicepremiér je omluven, bude vám odpověď zaslána písemně.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u53.p2">Nyní tedy vystoupí pan poslanec Holeček. Připraví se pan poslanec Hovorka. Prosím.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm" n="6" xml:id="ps2013-050-07-005-262.pb6" corresp="#ps2013-050-07-005-262.audio6"/>
+            <note type="time">
+          <time when="2016-10-27T15:20:00">(15.20 hodin)</time>
+        </note>
+            <note type="speaker">Poslanec Radim Holeček</note>
+            <u who="#RadimHolecek.1976" ana="#regular" xml:id="ps2013-050-07-005-262.u54" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u54.p1">Vážený pane ministře, interpeluji vás ve věci tábora pro uprchlíky v Drahonicích na Lounsku. Toto detenční zařízení koncem roku bude končit a zadržení imigranti budou přesunuti do Bálkové na Plzeňsku. Pro mě jako poslance z Ústeckého kraje nastává otázka, co s tímto objektem bude dále. Dle počtu vězňů v přeplněných věznicích předpokládám, že toto detenční zařízení bude opět věznicí. Přineslo by to další pracovní místa pro lidi z okolních obcí.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u54.p2">Pane ministře, co má Ministerstvo spravedlnosti v plánu udělat s tímto zařízením? Děkuji za odpověď.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u55" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u55.p1">Já vám děkuji za vaši interpelaci. Požádám pana ministra Pelikána o odpověď. Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr spravedlnosti ČR Robert Pelikán</note>
+            <u who="#RobertPelikan.1979" ana="#regular" xml:id="ps2013-050-07-005-262.u56" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u56.p1">Děkuji. Vážený pane předsedající, vážené poslankyně, vážení poslanci, ano, skutečně objekt Drahonice už nebude potřeba pro migranty, protože jich máme tak málo, že se tam bojí, což je myslím si dobrá zpráva a měla by zaznívat častěji. Dostaneme tím pádem ten objekt zpátky, a to v prvním čtvrtletí 2017, a skutečně zvažujeme, že bychom v něm opětovně zřídili věznici, a to v kategoriích, kde máme dnes největší přeplněnost, to je dozor a dohled. Přinese to bohužel nějaké finanční náklady. V podkladech mi Vězeňská služba napsala více než 100 milionů. Věřím, že to nebude více než 100 milionů, budeme o tom ještě mluvit. Nějaké horní desítky milionů to ale určitou budou. V první fázi předpokládáme, a takhle to děláme vždycky, nějakých 30 až 40 odsouzených, kteří to tam v rámci svého zaměstnání pomohou vlastně vybudovat na nějakou vyšší kapacitu kolem 120 odsouzených.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u56.p2">Ještě chci v téhle souvislosti říct, že jsem moc rád, že tu otázku formulujete takto, že si uvědomujete, že věznice je něco, co je nakonec prospěšné i pro okolí. Když teď zvažujeme, že bychom zřídili objekt ženské věznice v Králíkách, narážíme tam bohužel od místního obyvatelstva na trochu jiný přístup. Mám rád místa, kde dokážeme spolupracovat s okolím a věznice je tam dobrá pro všechny. Díky.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u57" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u57.p1">Já vám děkuji. Pane poslanče, bude doplňující otázka? Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Radim Holeček</note>
+            <u who="#RadimHolecek.1976" ana="#regular" xml:id="ps2013-050-07-005-262.u58" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u58.p1">Pouze poděkuji za vyčerpávající odpověď a díky tomu, že pan ministr takhle dobře a rozsáhle odpověděl, tak stahuji svoji 23. interpelaci.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Jan Bartošek</note>
+            <u who="#JanBartosek.1971" ana="#chair" xml:id="ps2013-050-07-005-262.u59" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u59.p1">Děkuji. Tím pádem ji škrtám. A nyní požádám pana poslance Ludvíka Hovorku, který bude interpelovat pana ministra dopravy Dana Ťoka ve věci sesuvu dálnice D8 u Dobkoviček. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Ludvík Hovorka</note>
+            <u who="#LudvikHovorka.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u60" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u60.p1">Děkuji za slovo.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u60.p2">Vážený pane ministře, v roce 2013 u Dobkoviček mezi Velemínem a Litochovicemi došlo k sesuvu na úseku dálnice D8. Pokud je mi známo, bylo podáno trestní oznámení na neznámého pachatele ve věci odpovědnosti za zavinění sesuvu s následkem poškození dálnice a stržení části železniční trati Lovosice-Řetenice-Teplice v Čechách. Podle odborných názorů a výsledků nezávislé odborné studie Akademie věd a Ústavu struktury a mechaniky hornin nebyl sesuv způsoben nahodilými přírodními jevy, ale byl předvídatelný a lze prokázat zavinění a konkrétní odpovědnost za nedostatečně provedený geologický průzkum s chybnými předpoklady a závěry včetně vyhodnocení vodního režimu v průběhu stavby, vadnou projektovou dokumentaci k soutěži na dodávku stavby nereagující na složitost průchodu sesuvným územím, vlastní způsob výstavby, který nezohledňoval možná rizika, absenci kvalifikovaného dozoru investora stavby, správce stavby, který léta ignoroval zápisy a upozornění kvalifikovaného geotechnického dozoru.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u60.p3">Dovolím si položit otázky. Proč úkony ke zjištění odpovědnosti za škody velkého rozsahu byly učiněny těsně před vypršením tříleté promlčecí lhůty a pouze žalobou na majitele dolu Dobkovičky? Jaké učinilo Ministerstvo dopravy kroky pro objektivní zkoumání a odhalení všech viníků? Kolik skutečně stálo těžení zeminy, kolik výstavba nového úseku dálnice a kolik vlastní stabilizace svahu? Proběhlo na této stavbě výběrové řízení a bylo vydáno stavební povolení? Jaká další zajišťovací opatření proti možným následným sesuvům byla učiněna v kritickém úseku? Jaká budou platit provozní a bezpečnostní opatření v případě, že budou indikovány další pohyby svahu? Jak je zajištěn monitoring pohybu sesuvného území, s jakou přesností a s jakou rychlostí vyhodnocení a dodání výsledků správci komunikace a přilehlým ohroženým obcím? <kinesic type="gesture"><desc>(Předsedající upozorňuje na čas.)</desc></kinesic> Kdo ponese veškerá rizika zabezpečení provozu?</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u61" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u61.p1">Děkuji panu poslanci. Hezké dobré odpoledne, pane ministře, prosím o vaši odpověď. Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u62" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u62.p1">Vážený pane místopředsedo, vážené paní poslankyně, vážení páni poslanci, mám k tomuto podkladu trošku jiný materiál. Musím říct, že otázky, které pokládal pan poslanec Hovorka, prostřednictvím pana předsedajícího, jsem tedy neobdržel. Já bych chtěl krátce reagovat s tím, že nabídnu, že na to budu reagovat písemně, protože je tam spousta informací.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u62.p2">Za prvé. K sesuvu na dálnici D8 existuje několik posudků. Ten, který citoval pan poslanec, je jenom krátké vytržení toho, co je v obsáhlém materiálu. Ředitelství silnic a dálnic spolu se Správou železniční dopravní cesty podalo žalobu na provozovatele lomu na základě posudku, který je k žalobě přiložen. Tento posudek, který citoval, je posudkem doplňkovým, který může být samozřejmě v řízení použit, ale chtěl bych se ohradit proti tomu, co tady bylo citováno, protože důvod sesuvu v tomto posudku Ústavu mechaniky hornin říká, že je tam multikriteriální důvod, proč se to stalo. Že dálnice vede územím, které je nestabilní, to samozřejmě všichni víme. Dálnice je taky postaveno x kilometrů. Takže chceme určitě dělat další kroky k tomu, abychom stabilizovali dálnici, jak je, a já bych si na konkrétní otázky dovolil odpovědět písemně, protože tady nechci vařit z vody.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u62.p3">Jenom zhruba. Odstranění následků sesuvu, mám pocit, že se to vyšplhalo téměř na miliardu korun, a teď tam děláme další zásahy. Děláme tam velmi přesný monitoring, který by měl odhalit jakýkoliv další posun. Asi očekáváme, že i nadále bude docházet k tomu, že budeme odstraňovat možné příčiny problému, a s tím počítáme do dalšího provozu. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u63" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u63.p1">Děkuji panu ministrovi. Pane poslanče, máte doplňující otázku? Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Ludvík Hovorka</note>
+            <u who="#LudvikHovorka.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u64" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r11">
+               <seg xml:id="ps2013-050-07-005-262.u64.p1">Vážený pane ministře, děkuji za prozatímní odpověď. Přesto bych se vás chtěl zeptat, jestli si myslíte, že stavební dozor na této stavbě probíhal správně a že veškerá upozornění, která byla ze strany geotechniků, byla respektována.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u64.p2">Dále bych se chtěl ještě zeptat, jestli máte nějaké informace o pohybu pražské opěry prackovické estakády, kdy založení mostu, opěra, ale také některé pilíře nevyhovují riziku sesuvu. Kdo ponese náklady za monitoring sesuvného území v celé délce a jak dlouho se monitoring bude provádět? Rovněž proč Ředitelství silnic a dálnic nepředchází škodám v obci Prackovice, která je významně dotčena poškozovanou stavbou D8?</seg>
+               <seg xml:id="ps2013-050-07-005-262.u64.p3">Chtěl bych se v této souvislosti zeptat, jestli je naplněno usnesení vlády, které v této věci bylo přijato 14. srpna 2013, to znamená, jestli pracovní skupiny, jak byly ustaveny, pracují skutečně v tom duchu, jak bylo tehdy usneseno. <kinesic type="gesture"><desc>(Předsedající upozorňuje na čas.)</desc></kinesic> Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u65" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050252.htm#r12">
+               <seg xml:id="ps2013-050-07-005-262.u65.p1">Prosím, pane ministře, vaše doplňující odpověď.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm" n="7" xml:id="ps2013-050-07-005-262.pb7" corresp="#ps2013-050-07-005-262.audio7"/>
+            <note type="time">
+          <time when="2016-10-27T15:30:00">(15.30 hodin)</time>
+        </note>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u66" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u66.p1">Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, tady byla řečena další baterie dotazů. Já si to vezmu ze stenozáznamu a budeme na ně odpovídat, nebo mi může pan poslanec Hovorka ty dotazy předat, tak na ně můžu odpovědět i písemně.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u66.p2">Ale velmi jednoduše. Samozřejmě dnešní situace, která tam je, tzn. posun toho valu, který máme a který je vlastně zapříčiněn tím, že stabilizujeme ten základní svaz, tak dneska monitorujeme, ty věci tam odstraňujeme. Ještě bych chtěl říct, že nemám žádné informace o tom, že by tam stavební dozor fungoval nesprávně.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u66.p3">Můžu to nechat ještě prověřit, ale jsem přesvědčen, že svoji práci dělali. Je velmi jednoduché dneska, když máme mnohem dokonalejší geologický průzkum, říkat, že bylo něco uděláno špatně. Mám pocit, že je potřeba opravdu posoudit, jaké byly standardní informace v době projektování. Jsem přesvědčen, a shodli jsme se na tom na této stavbě i se všemi geology, kteří tam byli, že v té míře poznatků, jak to bylo projektováno, je to naprojektováno dobře. My založení toho mostu budeme posilovat vzhledem k tomu, co dneska známe, budou tam další kotvy.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u66.p4">Jenom abych využil správně čas, chci odmítnout, že by obec Prackovice byla nějakým způsobem omezena výstavbou této dálnice. Obec Prackovice má nad sebou historicky svah, který prostě funguje, jak funguje, a to, co se tam děje, samozřejmě do jisté míry, ta dálnice, nebo ta stavební činnost, zapříčinila. My jsme se s nimi dohodli, že dostanou nový vodovod, protože si stěžují, že přišli o vodu. My jsme jim nad rámec toho, co musíme, přislíbili, že jim pomůžeme při problémech, které mají s čističkou odpadních vod, i když jsme přesvědčeni, že to je spíše chyba firmy, která to stavěla, než že by to byla chyba toho, že se nad tím staví.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u66.p5">Takže jenom krátce k tomu. Pokud mi dáte ty podklady, tak já vám na to určitě odpovím dokonale písemně. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u67" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u67.p1">Děkuji panu ministrovi. Přikročíme k další interpelaci. Pan poslanec Marek Černoch bude interpelovat pana ministra kultury Daniela Hermana ve věci vyjádření v médiích o možném připojení k Spolkové republice Německo.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u68" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u68.p1">Děkuji za slovo. Pane ministře, na debatě, kterou uspořádal Institut pro křesťansko-demokratickou politiku ve spolupráci s Nadací Hanse Seidla, zazněla dle médií slova: Je třeba navazovat a prohlubovat, co funguje. Čistě teoreticky bychom mohli být jednou ze spolkových zemí, protože naše ekonomika je navázána na ekonomiku Spolkové republiky, a myslím, že tomu také vděčíme za celkem velmi úspěšný hospodářský vývoj.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u68.p2">A já bych vás poprosil, abyste vysvětlil svá slova, protože si myslím, že v době, kdy by měla být posilována hrdost a vlastenectví, vyznívá to jako možné budoucí připojení k Německu. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u69" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u69.p1">Děkuji. Prosím, pane ministře, o vaši odpověď.</seg>
+            </u>
+            <note type="speaker">Ministr kultury ČR Daniel Herman</note>
+            <u who="#DanielHerman.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u70" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u70.p1">Děkuji. Vážený pane předsedající, kolegyně a kolegové, já jsem vlastně až teď pochopil, proč se tyto otázky objevily. Protože pravděpodobně došlo k tomu, že se někdo přeslechl a místo "ekonomicky" tam napsal "teoreticky". Já jsem řekl, že kdybychom se na to dívali čistě ekonomicky, tak bychom mohli být jednou ze spolkových zemí, co se týká toho objemu naší ekonomické výměny. A chápu, že slovo "ekonomicky" a "teoreticky" čistě foneticky je si podobné, takže toto je pravděpodobně ono vysvětlení.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u70.p2">Jinak s vámi naprosto souhlasím, že je třeba mít hrdě vztyčenou hlavu a rovnou páteř, nebýt vazalem žádné země, ať je veliká, nebo malá. Ale jsme občany a my také i politiky suverénní a svobodné České republiky, země, která je členskou zemí Evropské unie. Takže vám děkuji za podporu a doufám, že teď je to vyjasněno.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u71" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u71.p1">Děkuji. Pan poslanec nemá doplňující otázku.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u71.p2">Paní poslankyně Zuzana Šánová v osmé interpelaci bude interpelovat pana mistra doprava Dana Ťoka ve věci opravy na železnici a rychlostní silnici. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Zuzana Šánová</note>
+            <u who="#ZuzanaSanova.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u72" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u72.p1">Dobrý den, vážení přítomní.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u72.p2">Vážený pane ministře, obdržela jsem dopis občana, který minulý týden cestoval vlakem do Olomouce a během své cesty se udivoval nad tím, jak se u nás opravují vlaková nádraží a svodidla na silnicích. A abych něco nezkreslila, tak budu citovat jeho slova: Jeli jsme v pátek - myšleno minulý pátek - do Olomouce vlakem a ve stanici Lukavice se rozebírala čekárna. Střechu z makrolonu dělníci odstranili a nahrazovali plechovou. Do této chvíle byla funkční, jen špinavá. Podle vyjádření dělníků to dělají a ještě měsíce dělat budou na celém koridoru, aby se utratila dotace EU.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u72.p3">A to není všechno. Většina lidí se setkává také s omezením na rychlostním komunikacích, např. Olomouc-Mohelnice, kde se mění svodidla, a to údajně proto, že končí jejich životnost. Pochybuji, že by najednou v celé republice končila životnost všech svodidel. Svodidla byla montována desítky let postupně, ale při takové hromadné obměně hrozí, že až zase skončí jejich životnost, bude toto hromadné ukončení opět představovat nepříjemný fakt. A je pravda, že se vyměňují proto, že je třeba utratit peníze EU?</seg>
+               <seg xml:id="ps2013-050-07-005-262.u72.p4">Vážený pane ministře, můžete mi proto prosím odpovědět, jak je to tedy ve skutečnosti s výměnou střech a svodidel na nádražích a silnicích? Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u73" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u73.p1">Děkuji paní poslankyni. Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u74" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050253.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u74.p1">Vážený pane místopředsedo, vážené paní poslankyně, vážení páni poslanci, tak předně bych chtěl říct, že to je oblíbená novinářská zkratka, že cokoli děláme na silnicích nebo na železnici, tak to děláme proto, že potřebujeme utratit evropské peníze. Chci poněkolikáté velmi důrazně říct, že to není pravda.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u74.p2">A teď k těm dvěma případům. Nejprve bych rád uvedl na pravou míru, jak je to s výměnou střechy peronního přístřešku ve stanici Lukavici na Moravě. Peronní přístřešky byly na druhém koridoru, tedy včetně stanice Lukavice na Moravě, postaveny v roce 2005. Na zastřešení peronních přístřešků byly použity polykarbonátové desky. Desky použité na zastřešení musí být odolné jak vůči povětrnostním vlivům, tak především vůči UV záření. Díky působení těchto vlivů mají omezenou životnost a po určité době degradují a ztrácejí požadované vlastnosti, což má vliv na bezpečnost provozu a ohrožení cestujících. Dle zkušenosti z praxe mají polykarbonátové desky použité na zastřešení odolnost a deklarované vlastnosti vůči UV záření a povětrnostním vlivům osm až deset let.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u74.p3">V roce 2014 došlo k havárii přístřešku ve dvou železničních stanicích, a to v Grygově a v Brodku u Přerova. Bylo zjištěno, že peronní přístřešky byly staticky narušeny, neboť v době návrhu přístřešku, tedy v roce 2005, nebyla zcela zohledněna rychlost projíždějících vlaků, která nyní dosahuje v těchto úsecích až 160 km/h. Aerodynamický tvar vlaku má velký vliv na velikost a intenzitu vzduchové rázové vlny, neboť je rozdíl mezi projíždějící lokomotivou např. typu ES 499.2 a vlakem typu Pendolino. V prvním případě je rázová vlna od projíždějícího vlaku neporovnatelně vyšší. Na základě této události byla provedena revize všech přístřešků v obvodu místně příslušného správce železniční dopravní cesty, byly jasně stanoveny konstrukční úpravy a závady, které musí být na jednotlivých přístřešcích odstraněny. Byly řešeny problémy konstrukce, ukotvení přístřešku, zavětrování, detailní zasklení a odvodu dešťové vody, včetně kondenzace vlhkosti v ocelových konstrukcích. Každý přístřešek byl tímto způsobem prověřen a v průběhu období roku 2014 až 2016 jsou tyto závady odstraňovány. Opravné práce jsou hrazeny z prostředků na zajištění provozuschopnosti, které nesouvisí s dotacemi z Evropské unie. Takže příště pravděpodobně budeme muset vynaložit i nějaké peníze na to, abychom informovali pracovníky, aby si nevymýšleli, ale řekli pravdu, proč se to tedy má dělat.</seg>
+               <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm" n="8" xml:id="ps2013-050-07-005-262.pb8" corresp="#ps2013-050-07-005-262.audio8"/>
+               <note type="time">
+            <time when="2016-10-27T15:40:00">(15.40 hodin)</time>
+          </note>
+               <seg xml:id="ps2013-050-07-005-262.u74.p4">A co se týče svodidel, tak na dálnici D35 mezi Olomoucí a Mohelnicí dochází k výměně svodidel ve středním dělicím pásu. Tato akce je součástí větší stavby, která bude v příštím roce pokračovat opravou povrchu levého i pravého pásu. Celá uvedená stavba by měla být spolufinancována z operačního programu Doprava 2, z čehož lze dovodit, že se konkrétně svodidla nevyměňují pouze proto, aby se utratily finanční prostředky z fondů Evropské unie. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u75" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u75.p1">Děkujeme, pane ministře, za dobré zprávy. Paní poslankyně nemá doplňující otázku.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u75.p2">My budeme pokračovat dál. Pan poslanec Jan Zahradník bude interpelovat pana ministra zdravotnictví Svatopluka Němečka ve věci letecké záchranné služby v Jihočeském kraji. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Jan Zahradník</note>
+            <u who="#JanZahradnik.1949" ana="#regular" xml:id="ps2013-050-07-005-262.u76" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u76.p1">Vážený pane místopředsedo, kolegyně, kolegové, já se nejdřív zmíním o prohlášení zástupců odborných společností, které mají na starosti neodkladnou přednemocniční péči, z 24. října. Ti považují situaci po výběrovém řízení za nepřijatelnou. Obávají se toho, že bude ohrožena bezpečnost a kvalita služby. Může ohrozit toto výběrové řízení kvalitu a kontinuitu péče zejména proto, že zdravotnickým posádkám a novým provozovatelům neposkytne dost času na přípravu společné činnosti. Ptám se vás, pane ministře, jak budete reagovat na prohlášení odborných společností.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u76.p2">A pak je ten problém zdravotnické letecké záchranné služby v jižních Čechách. Tam, jak je známo, ji bude zajišťovat armáda pomocí vrtulníků Sokol, které jsou tak těžké, že nemohou přistávat na heliportu na letišti v Plané u Českých Budějovic. Budou tedy přistávat na letišti v Bechyni. A máme-li třeba na mysli Šumavu, tak ta je vzdálená od tohoto letiště 40 a více kilometrů a vrtulníky tam doletí se zpožděním oproti zákonné normě 7 až 10 minut. Déle také bude trvat jejich návrat na základnu. Tyto velké vrtulníky mají vyšší nároky na prostředí pro přistání. Pan ředitel zdravotnické záchranné služby jižních Čech říká - hromadu dřeva, vedle které můžeme přistát nyní, vám Sokol přerovná o pár metrů dál. Moje otázka zní, jak budete řešit problém zhoršené dostupnosti i zhoršené kvality přednemocniční neodkladné péče v Jihočeském kraji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u77" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u77.p1">Děkuji. Prosím, pane ministře, o vaši odpověď. Máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr zdravotnictví ČR Svatopluk Němeček</note>
+            <u who="#SvatoplukNemecek.1972" ana="#regular" xml:id="ps2013-050-07-005-262.u78" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u78.p1">Vážený pane předsedající, vážené paní poslankyně, páni poslanci, já bych tu odpověď rozdělil. Nejprve k tomu, že dochází ke změnám v provozovatelích letecké záchranné služby.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u78.p2">Já už jsem to tady říkal v odpovědi na interpelaci pana poslance Mackovíka. Mě to netěšilo, že nám připadl úkol to znovu soutěžit. A chápu to, že provozovatelé zdravotnické záchranné služby by byli nejradši, kdyby všechno zůstalo při starém, protože jsou prostě na ten systém zvyklí a netěší je, že si budou muset zvykat na jiné prostředí, na jiné provozovatele. Ale prostřednictvím pana předsedajícího, já za to opravdu nemohu. Měli tedy naši předchůdci před osmi lety ten tendr udělat na dobu neurčitou s výpovědní lhůtou. Já jsem nemusel nic soutěžit a nemuseli jsme tady řešit teď tuto záležitost. Ale prostě ten kontrakt byl na dobu určitou. My jsme podle zákona byli povinni vypsat výběrové řízení. A v tom výběrovém řízení prostě zvítězí ten, kdo dá lepší podmínky a nižší cenu. A chápu tedy výtky těch stávajících zdravotnických záchranných služeb, kterým se toto nelíbí. Tak jak už jsem jednou říkal, tak v případě, že dojde k realizaci té koncepce, kterou teď navrhla meziresortní pracovní skupina, a tu činnost bude zajišťovat stát, tak to bude trvalé, bude to na dobu neurčitou a tady těmto záležitostem se budeme moci vyhnout. Pokud tam bude obchodní kontrakt, bude tam kontrakt na dobu určitou, tak prostě musíme soutěžit a nemůžeme garantovat, že zůstane tentýž provozovatel.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u78.p3">Co se týče té specifické a musím říct férově ne úplně šťastné situace v Jihočeském kraji, tak jenom zrekapituluji genezi té záležitosti. Jak je možno dohledat v oficiálních dokumentech, Ministerstvo zdravotnictví přišlo do vlády s návrhem, abychom pokračovali plus minus v tom systému, jak byl nastaven, tzn. že na těch osmi základnách by to provozoval soukromý provozovatel. Byl by tam tedy vypsán tendr. Nicméně tento materiál nebyl přijat vládou. Byla k tomu vedena poměrně rozsáhlá diskuse a jeden z koaličních partnerů navrhl, že by měl být výrazně posílen podíl Ministerstva obrany, resp. Ministerstva vnitra na zajišťování letecké záchranné služby. Poté přišlo Ministerstvo obrany už na jednání vlády s konkrétní nabídkou, že tak jako zajišťuje leteckou záchrannou službu v Plzeňském kraji, tak je připraveno ji bez jakýchkoli problémů od 1. ledna zajistit i v Jihočeském kraji, a na základě toho vláda rozhodla, že tomu tak bude.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u78.p4">Já musím potvrdit - a s tím asi prostřednictvím pana předsedajícího pan poslanec tedy přichází v rámci své interpelace, že se následně ukázaly poměrně výrazné komplikace v některých věcech v zajištění letecké záchranné služby v Jihočeském kraji, především to, že nově vybudovaný heliport u Českých Budějovic, který byl poměrně výraznými náklady rekonstruován, nemůže být pro ty těžké armádní vrtulníky využíván. Problémy to způsobuje i na některých heliportech v rámci nemocnic, to je pravda. A myslím si, že je škoda, že k této situaci došlo, že to nebylo prozkoumáno dříve.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u78.p5">Nicméně, a tady se vracím znovu ke koncepci, kterou teď předkládáme do vlády, po projednání v té meziresortní pracovní skupině Ministerstvo obrany, resp. armáda na jednáních této skupiny přišla s tím, že si chce zachovat trvalou činnost pouze na té plzeňské základně a že tu jihočeskou by měl znovu zajišťovat stát v rámci toho státního provozovatele. Jsem přesvědčen, že pokud teď vláda tuto koncepci přijme, tak právě Jihočeský kraj by mohl být jedním z prvních krajů, kde by se na realizaci té koncepce přecházelo jako první. V okamžiku vysoutěžení těch standardních, jenom záchranářských vrtulníků si myslím, že veškerá infrastruktura včetně toho heliportu, tuším, že je to v Plané u Českých Budějovic, by byla znova využita. A já si myslím, že ten časový horizont by mohl být plus minus tři roky. Nicméně -</seg>
+               <kinesic type="gesture">
+                  <desc>(Předsedající upozorňuje na čas.)</desc>
+               </kinesic>
+               <seg xml:id="ps2013-050-07-005-262.u78.p6">Ano, počkám na doplňující dotaz, předpokládám.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u79" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u79.p1">Děkuji, pane ministře. Prosím, pane poslanče, vaše doplňující otázka. Pane ministře, to já bych vás tu větu nechal domluvit, jenom se přátelsky upozornilo.</seg>
+            </u>
+            <note type="speaker">Poslanec Jan Zahradník</note>
+            <u who="#JanZahradnik.1949" ana="#regular" xml:id="ps2013-050-07-005-262.u80" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u80.p1">Já tomu rozumím, pane ministře. To ty občany nezajímá, ty pacienty s těma zlomenýma nohama a otřesy mozku, ti chtějí být včas dovezeni do nemocnice tím vrtulníkem. Není pro mě představitelné, jak jste mohli vypsat výběrové řízení s podmínkami, a přitom jste je nekonzultovali s tím krajem? Vždyť ten kraj vám přece musel říct, že má ten a ten heliport a že jsou tam a tam takové podmínky, že tam prostě ten sokol přistát nemůže. Vláda tedy za to má plnou odpovědnost, co se stalo. A otázka je, jak rychle se vám podaří to napravit. Já doufám, že to bude dřív než za ty tři roky. Protože samozřejmě by se mohli taky trošku obávat ti, kteří schvalovali tu investici 60milionovou, aby to náhodou nebyly neoprávněně vynaložené peníze. Čili prosím pěkně, v zájmu Jihočechů, urychlete to všechno, ať se může lítat normálními vrtulníky a nemusí se tam dopravovat zranění s těmi obrovskými sokoly, s těmi těžkými stroji. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u81" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u81.p1">Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr zdravotnictví ČR Svatopluk Němeček</note>
+            <u who="#SvatoplukNemecek.1972" ana="#regular" xml:id="ps2013-050-07-005-262.u82" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050254.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u82.p1">Takže já doplním. Uznávám výtku, co se týká toho, že je třeba využít investice, které se zrealizovaly. Myslím, že je to naprosto namístě. Nicméně, a to chci zdůraznit z hlediska občana, z hlediska pacienta, kterému se někde něco v rámci Jihočeského kraje stane, tak tady skutečně problém není. Protože zase, řekněme si férově, pokud ten vrtulník letí z Bechyně nebo letí od Českých Budějovic, tak ta doletová doba je velmi, velmi podobná. A samozřejmě někde to bude mít kousek dál, např. do těch šumavských lokalit, někde to bude mít blíž. Na druhé straně oproti civilním provozovatelům, kteří tady byli, tak ty armádní vrtulníky garantují i nonstop noční pohotovost, tzn. pro občana Jihočeského kraje, kterému se něco stane, tak v okamžiku, kdy tam bude zasahovat armádní vrtulník, tak od 1. ledna bude připraven létat nonstop a létat v noci. Takže pro toho pacienta, jestli poletí velkým vrtulníkem, nebo malým, to skutečně rozdíl nebude. Nicméně uznávám tady jistý diskomfort zdravotnické záchranné služby, která byla zvyklá na nějaký systém, a uznávám, že je třeba dělat všechno pro to, aby co nejdříve byly využity investice, které se zrealizovaly.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm" n="9" xml:id="ps2013-050-07-005-262.pb9" corresp="#ps2013-050-07-005-262.audio9"/>
+            <note type="time">
+          <time when="2016-10-27T15:50:00">(15.50 hodin)</time>
+        </note>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u83" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u83.p1">Děkuji panu ministrovi. Paní poslankyně Marta Semelová v desáté interpelaci bude interpelovat paní ministryni školství Kateřinu Valachovou ve věci studia speciální pedagogiky v Polsku. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Marta Semelová</note>
+            <u who="#MartaSemelova.1960" ana="#regular" xml:id="ps2013-050-07-005-262.u84" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u84.p1">Děkuji. Vážená paní ministryně, chtěla bych se zeptat, jak je to s uznáváním kvalifikace dálkových studentů speciální pedagogiky na UJAK, kteří poté, co nebyla prodloužena akreditace, potřebovali někde studium dokončit. V České republice je obor speciální pedagogika pro dálkaře kromě UJAK snad jen na Pedagogické fakultě Masarykovy univerzity v Brně, takže jim nezbývalo nic jiného než studium na Slovensku nebo v Polsku. V Ružomberku nám tak připravuje speciální pedagogy Katolická univerzita, kde se, jak se ke mně dostalo, musí povinně účastnit mší a v promočním slibu je, že budou pracovat ve prospěch církve a šíření Kristovy pravdy. Katolická univerzita je ovšem slovenská veřejnoprávní vysoká škola a podle předchozího prověřování a vyjádření slovenského a českého Ministerstva školství by tak neměl být problém s uznáváním kvalifikace speciálního pedagoga, učitele pro české školství. Jinak je tomu u studentů, kteří šli dostudovat na soukromou Dolnoslezskou univerzitu do Wroclawi. Přednášky sice jsou v češtině nebo do češtiny předkládány, ale nemají ani didaktiku polštiny, ani češtiny. První stupeň základní školy je v Polsku jen první až třetí třída, předměty jsou jinak organizovány. Studenti neskládají státní závěrečné zkoušky, pouze obhajují diplomovou práci. Polské školství, vysoké i základní, má jinou tradici, formu a strukturu než školství naše.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u84.p2">Chtěla bych se proto zeptat: Jaké jsou v České republice možnosti dálkového studia oboru speciální pedagogika na vysokých školách? A dále, jak to je s uznáváním kvalifikace absolventů studia speciální pedagogiky z Wroclawi učit na českých školách, když pro polské školy ji údajně nemají?</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u85" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u85.p1">Děkuji. Prosím, paní ministryně, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministryně školství, mládeže a tělovýchovy ČR Kateřina Valachová</note>
+            <u who="#KaterinaValachova.1976" ana="#regular" xml:id="ps2013-050-07-005-262.u86" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#">
+               <seg xml:id="ps2013-050-07-005-262.u86.p1">Vážený pane předsedající, vážené poslankyně, vážení poslanci, dovolím si odpovědět na interpelaci. Co se týká zmíněného studia v Polsku, tak bych jenom chtěla říct, že na rozdíl od slovenské univerzity, kde máme řadu takových žádostí, konkrétně 166 a z toho už 50 bylo kladně vyřízeno z hlediska uznání vzdělání na Katolické univerzitě v Ružomberku, tak co se týká Polska, tak nic takového v tuto chvíli není Ministerstvu školství známo, žádnou takovou žádost nemáme.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u86.p2">Z hlediska obavy, která tady zazněla, co se týká uznatelnosti vzdělání, bych chtěla jenom říct, že zatímco otázka nostrifikace je záležitostí především samotných univerzit, potom tady na našem území, kdy veřejné vysoké školy vystaví potvrzení, jestli se jedná, nebo nejedná o uznatelný studijní program, a my jsme teprve odvolacím orgánem, tak naštěstí z hlediska učitelství se jedná o uznání odborné kvalifikace pro výkon tzv. regulované profese či povolání. Toto je kompetence přímo MŠMT. Takže mohu ujistit, že na to budeme dbát v rámci této naší kompetence a budeme také schopni zajistit, jestli takovou pedagogickou kvalifikaci lze uznat, tak jak to paní poslankyně Semelová v té obavě naznačila. Zatím se tak z hlediska té žádosti nestalo a o těchto situacích v tuto chvíli nemáme žádné informace.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u86.p3">A co se týká otázky dálkového studia v oblasti speciální pedagogiky, tak určitě je pravdou, že dálková studia, a to obecně, musím říct, z hlediska vysokých škol nejsou příliš využívána. Nicméně aktuálně komunikujeme s pedagogickými fakultami, s děkany, ale také s fakultami, které připravují učitele. Připravili jsme vlastně řadu byť konkrétních kroků, které by měly zlepšit i tyto podmínky pro zejména naše učitele, učitelky, kteří si za určitých okolností potřebují doplnit kvalifikaci, a to nemusí být jenom speciální pedagogika.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u86.p4">A abych nezdržovala, tak jenom pokud je to možné, vaším prostřednictvím, pane předsedající, tak dám samozřejmě písemnou zprávu nejenom paní poslankyni Semelové, ale celému školskému výboru, aby byli informováni o krocích směrem k pedagogickým fakultám a zlepšování této situace všichni poslanci a poslankyně všech politických stran v PS.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u87" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u87.p1">Děkuji. Prosím, paní poslankyně, vaše doplňující otázka.</seg>
+            </u>
+            <note type="speaker">Poslankyně Marta Semelová</note>
+            <u who="#MartaSemelova.1960" ana="#regular" xml:id="ps2013-050-07-005-262.u88" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u88.p1">Chci poděkovat za to, co jste teď říkala. Nicméně samozřejmě my se na to můžeme dívat z pohledu studentů a z pohledu zájmu České republiky o to, jaká tady bude vzdělanost. Uznávání studia je podle mě trošičku problematické právě z důvodů, které jsem tady naznačila. Nicméně chápu obavy studentů, kterým nezbylo nic jiného. Jenom bych ještě chtěla upozornit na to, že ono se to týká i současných zájemců o dálkové studium speciální pedagogiky, konkrétně ve Wroclawi. Vím, že základní školy mají zájem o to přijímat s okamžitou platností kvalifikované učitele speciální pedagogiky. A nejde tedy jenom o skupinu, která si ve Wroclawi dokončuje studium z UJAK. Rektor Dolnoslezské univerzity ve Wroclawi oslovuje dopisy ředitele českých základních škol, že na Dolnoslezské univerzitě si jejich učitelé mohou získat aprobaci. A tady jde o stovky i tisíce učitelů. Takže na to chci jenom upozornit. Bylo by dobře, kdyby skutečně jednání s pedagogickými fakultami nějak dospěla.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u89" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u89.p1">Děkuji. Prosím, paní ministryně.</seg>
+            </u>
+            <note type="speaker">Ministryně školství, mládeže a tělovýchovy ČR Kateřina Valachová</note>
+            <u who="#KaterinaValachova.1976" ana="#regular" xml:id="ps2013-050-07-005-262.u90" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#">
+               <seg xml:id="ps2013-050-07-005-262.u90.p1">Děkuji paní poslankyni za upřesnění a chci jednoznačně sdělit, ačkoli až doposud jsem neměla žádné informace o této praxi směrem k našim školám a k nabídkám, které směřují směrem k našim učitelům, tak samozřejmě ihned Ministerstvo školství vejde v jednání s polskou stranou. A samozřejmě zveřejníme stanovisko, které bude do určité míry předvídat, jakým způsobem by ministerstvo v případě orgánu, který uznává pedagogické kvalifikace, v budoucnu postupovalo nebo reagovalo, tak abychom zabránili tomu, pokud toto studium může mít nedostatky, tak aby studenti a studenti, učitelé a učitelky našich škol marně si nedoplňovali vzdělávání způsobem, který nakonec na našem území nebude nebo nemůže být uznán. Porozuměla jsem tomu správně, takže dovolím si to takto tady slíbit směrem k Poslanecké sněmovně.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u91" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u91.p1">Děkuji. Pan poslanec Karel Schwarzenberg bude interpelovat pana ministra zahraničí Lubomíra Zaorálka ve věci prohlášení představitelů České republiky ke vztahům s Čínou. Prosím, pane poslanče, máte slovo.</seg>
+            </u>
+            <note type="speaker">Poslanec Karel Schwarzenberg</note>
+            <u who="#KarelSchwarzenberg.1937" ana="#regular" xml:id="ps2013-050-07-005-262.u92" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050255.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u92.p1">Vážený pane ministře, vážené poslankyně a poslanci, vzhledem k událostem posledních týdnů a výrokům různých ústavních činitelů se otevírají následující otázky. Na jakých společných hodnotách, politických principech či zahraničněpolitických činech se zakládá strategické partnerství mezi Čínskou lidovou republikou a Českou republikou? Za druhé, jaké dohody či dokumenty zakládají toto strategické partnerství? Pokud vychází z prohlášení prezidentů obou zemí z března tohoto roku, kdy je projednala a schválila vláda podle čl. 63 odst. 1? Pokud vychází z dohody mezi ČSSD a čínskou komunistickou stranou uzavřené v roce 2011, jakým způsobem se stala oficiální politikou státu? Do třetice, jak se toto strategické partnerství slučuje s koncepcí zahraniční politiky České republiky vypracované Ministerstvem zahraničních věcí v loňském roce, kde o strategickém partnerství s Čínou není ani zmínky? Pokud jde jen o peníze a obchod, proč se takový utilitární vztah povyšuje na strategické partnerství? Za páté, jaké důvody vedly ministra a vrcholné představitele České republiky k vydání tohoto prohlášení při příležitosti návštěvy tibetského dalajlámy, který výslovně uznává teritoriální celistvost Číny a legitimitu čínské vlády? Byla česká diplomacie v této záležitosti předmětem intervence <kinesic type="gesture"><desc>(upozornění na čas)</desc></kinesic> čínských představitelů, a pokud ano, na jaké úrovni? A co jsou závazky, o kterých mluví čínská reakce na toto prohlášení, závazky, které máme dodržet? A byla s těmito závazky seznámena Poslanecká sněmovna?</seg>
+               <seg xml:id="ps2013-050-07-005-262.u92.p2">Děkuji mnohokrát.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm" n="10" xml:id="ps2013-050-07-005-262.pb10" corresp="#ps2013-050-07-005-262.audio10"/>
+            <note type="time">
+          <time when="2016-10-27T16:00:00">(16.00 hodin)</time>
+        </note>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u93" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u93.p1">Děkuji, pane poslanče. Prosím příště o dodržení dvouminutového časového limitu. Děkuji. Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr zahraničních věcí ČR Lubomír Zaorálek</note>
+            <u who="#LubomirZaoralek.1956" ana="#regular" xml:id="ps2013-050-07-005-262.u94" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u94.p1">Dobré odpoledne, dámy a pánové. Děkuji tedy za otázky a pokusím se s nimi vyrovnat, jestli si je budu přesně pamatovat, jak byly pokládány.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u94.p2">První otázka byla tuším, na jakých společných hodnotách se zakládá dohoda o strategickém partnerství mezi Čínskou republikou a Českou republikou. Kdybych to měl říct velmi krátce, tak základní hodnoty, které stojí v zásadě, nebo v základu té deklarace, je zájem na všestranném rozvoji vzájemných vztahů. Takže nejenom, jak tam bylo řečeno utilitárně, ale ta deklarace je politická a jasně říká, že jde o otevřenou výměnu názorů a dialog, který má být základem tohoto partnerství. Dokonce když se mluví o respektu k zájmům druhého, tak se tím nemyslí souhlas nebo sdílení, ale pouze respekt s tím, že ty názory samozřejmě mohou být rozdílné, takže vlastně ta deklarace dává najevo, že rozhodně nejde jenom o nějakou utilitární dohodu, která se týká úzce obchodu. A já sám jsem to vlastně mnohokrát zdůraznil, že jedna věc jsou očekávání v oblasti ekonomiky, ale že mně se jedná o to, abychom vedli s Čínou dialog, protože si myslím, že Čína je země, která bude významně ovlivňovat vývoj současného světa. Takže skutečně to partnerství zakládá daleko širší pojetí vztahů než jenom utilitárně obchodní.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u94.p3">A samozřejmě že se tam konstatuje, a to je také základní, vzájemná úcta a rovnost, a dokonce se odkazuje přímo na Chartu OSN jako principy, tak jak jsou definovány v Chartě OSN. A v rámci toho se říká i respektování územní celistvosti a suverenity obou států. A z naší strany ta deklarace, tam tuším ve čtvrtém odstavci se říká, že se my se hlásíme k naší politice jedné Číny - naší politice jedné Číny, ta formulace je důležitá, a myslím si, že pan předseda ví, že to je vlastně princip, ke kterému se hlásily i předchozí demokratické vlády, a tento princip a toto přihlášení je i součástí té politické deklarace.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u94.p4">Pak, pane předsedo, jste se ptal, na jaké dohodě se to strategické partnerství zakládá. Já jenom zdůrazním, že to strategické partnerství je právně nezávaznou politickou deklarací. Tedy právně nezávaznou politickou deklarací, a je to tedy prohlášení, nikoliv závazná smlouva nebo nějaká závazná dohoda. A ona byla připravována za participace všech rezortů vlády a v hlavních bodech byli členové i vláda o tom prohlášení informováni. Takže myslím si, že v tom všichni členové měli možnost ten postup i sledovat, a dnes text této deklarace je k dispozici na webu komukoliv, takže je veřejně dostupný a každý si může i zkontrolovat to, co tady říkám.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u94.p5">Co se týče toho, že vy jste narážel tuším na dohodu mezi Českou stranou sociálně demokratickou a Komunistickou stranu Číny z roku 2011. Tu tady teď nemohu celou prezentovat, ale v zásadě obsahem té dohody byl zájem na právě všestranné spolupráci mezi Čínou a Českou republikou do budoucna, a dá se říci, že tento názor sociální demokracie se odráží také v postupu vlády a ve vládní politice vůči Číně. My jsme vlastně tady navázali na to, co jsme řekli. Chceme dialog a chceme spolupráci mezi oběma zeměmi.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u94.p6">Vy jste se ptal tuším také na to, jestli je tady soulad s koncepcí české zahraniční politiky, a já se domnívám, že je naprostý, ten soulad, protože v koncepci české zahraniční politiky se mluví, že máme zájem na pravidelném politickém dialogu mezi Čínou a Českou republikou. Já si myslím, že deklarace strategického partnerství je právě naplněním tohoto bodu koncepce české zahraniční politiky.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u94.p7">A co se týče toho, proč tedy strategické partnerství, tak já si myslím, že je to prostě proto, že to je forma, kterou Čína rozvíjí, partnerství s celou řadou zemí, dokonce mám dojem, že s desítkami zemí. Tady v Evropě samozřejmě s Německem, Velkou Británií, Polskem a dalšími. My jsme se dostali, řekněme, na úroveň těchto zemí. Není to úplně běžné, není to vždycky, ale my jsme se dostali na úroveň té poměrně docela velké řady zemí, které mají tady tento typ deklarace, právně nezávazné politické deklarace, kterou se definuje právě celá řada oblastí, ve kterých je zájem spolupracovat. Takže další odpověď na to, proč strategické partnerství, je, že se jedná právě o všestrannou spolupráci, na které se podílelo několik rezortů a kde se snažíme, nebo dokonce mohu říct v jistém smyslu všechny rezorty, že tam daly svůj. <note type="comment">(Mpř. Gazdík: Čas.)</note> Takže já to ještě dopovím, protože jsem to nestihl, v těch dalších dvou minutách.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u95" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u95.p1">Snad. Pane poslanče, máte doplňující otázku? <vocal type="speaking"><desc>(Ano.)</desc></vocal> Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Karel Schwarzenberg</note>
+            <u who="#KarelSchwarzenberg.1937" ana="#regular" xml:id="ps2013-050-07-005-262.u96" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u96.p1">Děkuji panu ministrovi za informace. Z toho můžu pouze uvést, že prohlášení partnerství je vlastně bezobsažná deklarace, která je jenom taková hezká mašlička kolem různých obchodních zájmů, které Číňané, a doufám i my, máme. Jelikož je to právně nezávazné, tak <gap reason="inaudible"><desc>(nesroz.)</desc></gap>.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u96.p2">Nicméně vy jste mi nezodpověděl otázku. Čínská reakce na prohlášení ústavních činitelů byla jednoznačná, že připomínají, že by se Česká republika měla držet svých závazků. Ptám se ještě jednou: Co jsou závazky, které jsme uzavřeli vůči Čínské republice a o kterých Poslanecké sněmovně není nic známo?</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u97" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u97.p1">Děkuji. Prosím, pane ministře, o doplňující odpověď.</seg>
+            </u>
+            <note type="speaker">Ministr zahraničních věcí ČR Lubomír Zaorálek</note>
+            <u who="#LubomirZaoralek.1956" ana="#regular" xml:id="ps2013-050-07-005-262.u98" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u98.p1">Ano. Chápal bych vaše znepokojení, pane předsedo, kdyby to tak opravdu bylo formulováno, ale já vás ujišťuji, že v tom prohlášení čínské strany skutečně nic takového není. Když jsem se zabýval tím, co se objevilo v našich médiích, a šel jsem po stopách, kde to vzniklo, tak to zřejmě vzniklo v nedobrém, špatném překladu z angličtiny do češtiny, který vznikl zřejmě v našich mediálních, tiskových institucích, a žádal jsem i opravu oficiálně, protože mi to přišlo poměrně nešťastné. Mohu vás odkázat na web Ministerstva zahraničí, kde uvádíme skutečný text a to, jak to zní v angličtině, a myslím si také daleko přesnější překlad. Takže v reakci čínské strany, kterou máte na mysli, není nic z toho, co se bohužel objevilo i v titulcích našich médií, tím pádem já ani vlastně nemám, jak odpovědět na tu otázku.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u98.p2">Myslím si, že na obou stranách došlo pouze k tomu, že i na naší straně bylo v reakci na návštěvu dalajlámy a na setkání, které zarazilo tedy nejenom čínskou stranu, ale zřejmě i mě, protože dohoda na vládě byla, že budeme respektovat citlivost, která je na čínské straně pro oficiální přijetí Jeho Svatosti dalajlámy v ČR na půdě oficiálních institucí. Takže to byla věc, kterou já jsem se také dozvěděl až několik hodin, než k ní došlo, takže jsem na to reagoval, protože jsem docela rozuměl tomu, že to na čínskou stranu působilo dost nesrozumitelně. Takže my jsme vydali prohlášení, kde jsme na tohle reagovali tím, že se nic nemění na naší pozici i na tom, na čem vlastně existuje politická dohoda, a v prohlášení čínské strany se oceňuje to, že jsme toto ujištění vydali. A žádný požadavek na českou stranu tam formulován není, o tom vás ujišťuji, a můžeme se o tom přesvědčit společně kontrolou toho textu.</seg>
+            </u>
+            <vocal type="speaking">
+               <desc>(Posl. Schwarzenberg: Děkuji.)</desc>
+            </vocal>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u99" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u99.p1">Děkuji panu ministrovi i panu poslanci. Paní poslankyně Věra Kovářová bude interpelovat pana ministra dopravy Dana Ťoka ve věci veřejných zakázek na mýtný systém. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Věra Kovářová</note>
+            <u who="#VeraKovarova.1964" ana="#regular" xml:id="ps2013-050-07-005-262.u100" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050256.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u100.p1">Děkuji. Vážený pane ministře, médii tento týden proběhla zpráva, podle níž byla Ministerstvu dopravy udělena pokuta ve výši 1 mil. korun za zpackané zadávací řízení týkající se mýtného systému. Ministerstvo s vypsáním zadávacího řízení dlouho otálelo a pak jej vypsalo v podobě, která neumožňovala otevřenou soutěž, tedy v jednacím řízení bez uveřejnění.</seg>
+               <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm" n="11" xml:id="ps2013-050-07-005-262.pb11" corresp="#ps2013-050-07-005-262.audio11"/>
+               <note type="time">
+            <time when="2016-10-27T16:10:00">(16.10 hodin)</time>
+          </note>
+               <seg xml:id="ps2013-050-07-005-262.u100.p2">Moje dotazy jsou velmi konkrétní. Proč si Ministerstvo dopravy opatřilo posudky, na základě kterých byla zvolena procedura, tedy jednací řízení bez uveřejnění, až na jaře letošního roku? A především, jak by Ministerstvo dopravy pod vaším vedením postupovalo, kdyby posudky, které si opatřilo až na jaře letošního roku, konstatovaly, že je třeba vypsat otevřené zadávací řízení, které by si vyžádalo více času? Ano, je to otázka hypotetická, ale i její řešení muselo mít ministerstvo připraveno v záloze, pokud tuto záležitost chtělo řešit odpovědným způsobem, což si s ohledem na průtahy spojené s vypsáním zadávacího řízení bohužel nemyslím. Přesto vás, pane ministře, prosím o odpověď. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u101" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u101.p1">Prosím, pane ministře, vaši odpověď.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u102" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u102.p1">Vážený pane místopředsedo, vážené paní poslankyně, vážení páni poslanci, především bych chtěl tady říct, že nevím, o kterém výběrovém řízení a natož o kterém zpackaném výběrovém řízení paní poslankyně hovoří. My jsme tady měli celou jednu schůzi o mýtném systému a já bych tady chtěl říct, že ÚOHS v podstatě ve svém rozhodnutí potvrdil to, co jsme tady říkali. Úřad pro ochranu hospodářské soutěže ve správním řízení zahájeném z moci úřední dne 9. 9. 2016 v souvislosti s uzavřením dvou dodatků ke smlouvě o poskytování služeb souvisejících s provozem systému výkonového zpoplatnění vybraných pozemních komunikací v České republice a ke smlouvě o dodávce systému výkonového zpoplatnění pozemních komunikací v rámci veřejné zakázky zajištění provozu systému elektronického mýta po roce 2016, zadané v jednacím řízení bez uveřejnění, rozhodl dne 25. října, že zadavatel, Česká republika, Ministerstvo dopravy, se dopustil správního deliktu a za tento delikt mu uložil pokutu ve výši jednoho milionu korun. A mám-li stručně shrnout, co v tom je, a my dneska máme 15 dnů na to, abychom se rozhodli, jestli podáme rozklad, nebo ne a celou věc ještě pečlivě studujeme, ale kdybych stručně měl říct, tak ÚOHS řekl ano, Ministerstvo dopravy pochybilo. Pochybilo v roce 2005 způsobem, jakým vypsalo soutěž, a v roce 2006, jakým tu soutěž podepsalo a dodatkovalo. Zároveň tam konstatují, že Ministerstvo dopravy v posledních dvou letech udělalo spoustu kroků k tomu, aby tento stav napravilo, nicméně díky chybám v letech předchozích to už napravit nešlo.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u102.p2">Já si myslím, že naším cílem, a ten byl splněn, je, že vybírá Česká republika mýto dále. A ta vaše otázka, co bychom dělali, kdybychom věděli, že nemůžeme, víte, ta otázka v podstatě není, protože naše povinnost je to mýto vybírat. Je to povinnost, která je dána spoustou dalších zákonů, a já si myslím, že ten způsob, že Česká republika nebude parkovištěm Evropy, nebo proto, že tady budou objíždět kvůli neexistenci mýta všechny kamiony, a to že budeme vybírat deset miliard ročně, je záležitost, která byla naší povinností. Já jsem té povinnosti dostál. Chce-li mě za to někdo kritizovat, může, ale já té kritice úplně moc nerozumím. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u103" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u103.p1">Prosím o doplňující otázku. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Věra Kovářová</note>
+            <u who="#VeraKovarova.1964" ana="#regular" xml:id="ps2013-050-07-005-262.u104" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u104.p1">Děkuji za odpověď, pane ministře. Já myslím, že jste to řekl jasně, že je v pořádku, že Česká republika bude dále vybírat mýto. Moje otázka však zněla a vy jste odpověděl, a jestli tomu správně rozumím, tak variantu B jste tedy nepřipustili a ani jste ji neměli připravenou pro případ, že byste museli vypsat otevřené zadávací řízení?</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u105" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u105.p1">Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u106" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u106.p1">Trošku se točíme v kruhu. Ale já se pokusím na to znova odpovědět. My jsme poslední dva roky na ministerstvu nedělali nic jiného, než že jsme se pokoušeli vypsat otevřené výběrové řízení. Toto otevřené výběrové řízení nebylo lze vypsat, protože Ministerstvo dopravy nemělo k dispozici zcela podstatné záležitosti, které by do tohoto výběrového řízení mohlo dát. To znamená, že tady byly dvě možnosti, nebo dejme tomu třetí teoretická. Dvě možnosti by byly, že buď najdeme cestu, jak to prodloužit, a myslím si, že jsme ji našli. Druhá cesta by byla mýto nevybírat a to by byla tragédie. To by bylo způsobení škody velkého rozsahu a to si nedovedu představit, kdo by si takovouto zodpovědnost na sebe vzal. A pak třetí možnost, nějakým speciálním zákonem. Ale toto je možnost, která by byla mnohem více riskantní než ta možnost, kterou jsme zvolili. Ano, měli jsme další teoretické možnosti. Ten plán B máte vždycky. Nicméně chtěl bych říct, že lépe v tomto případě pro všechny je, když jsme byli schopni tuto zakázku prodloužit stávajícímu provozovateli a hlavně snížit náklady na výběr mýta o 500 milionů ročně, což je výrazná úspora. Myslím si, že to ten systém efektivně umožní využívat dále. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u107" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u107.p1">Děkuji panu ministrovi i paní poslankyni. Pan poslanec Jiří Zlatuška bude interpelovat paní ministryni školství Kateřinu Valachovou - ale pana poslance nevidím, tudíž jeho interpelace propadá.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u107.p2">Paní poslankyně Věra Kovářová bude ve14. interpelaci interpelovat pana ministra Daniela Hermana ve věci útoku Hradu na ministra kultury. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Věra Kovářová</note>
+            <u who="#VeraKovarova.1964" ana="#regular" xml:id="ps2013-050-07-005-262.u108" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u108.p1">Vážený pane ministře, kauza nevyznamenání pana Bradyho hýbe už několik dní veřejným prostorem. Objevují se různé interpretace, a co hůř, také různá fakta. Verze události, kterou předkládá Pražský hrad, resp. pracovníci Kanceláře prezidenta republiky, ve mně nevzbuzuje důvěru. Nekoresponduje buď s jejich staršími výroky, nebo s postupem zvoleným u jiných vyznamenaných osobností. O to víc mě zaskočilo, když na vás kancléř prezidenta republiky Ing. Vratislav Mynář ve včerejším interview ČT24 zaútočil. Cituji: Jestli mám používat silné výrazy jako vy, tak řeknu, že pan Herman lže. Konec citace.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u108.p2">Pokud je tomu skutečně tak a nemluvíte pravdu, je to problém. Pokud tomu tak není a vy pravdu mluvíte, a já nemám důvod myslet si na základě našeho dosavadního stýkání a potýkání se v Poslanecké sněmovně cokoliv jiného, je takové osočení ze strany vysoce postaveného úředníka prezidentské kanceláře, která se v této kauze prezentovala protichůdnými výroky, neodpustitelné a volá po vyvození odpovědnosti. Situace, kdy kancléř nejenže nemá bezpečnostní prověrku, ale silnými slovy neodůvodněně uráží členy vlády, je nepřijatelná.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u108.p3">Předpokladem vyvození následků je, že bude vyjasněno, jak celá kauza proběhla, a proto vás, pane ministře, oslovuji s žádostí o vyjádření vašeho stanoviska. Promiňte mi, když si vypomohu slovy kancléře Mynáře: lžete, pane ministře? Děkuji za odpověď.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u109" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050257.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u109.p1">Děkuji paní poslankyni. Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm" n="12" xml:id="ps2013-050-07-005-262.pb12" corresp="#ps2013-050-07-005-262.audio12"/>
+            <note type="time">
+          <time when="2016-10-27T16:20:00">(16.20 hodin)</time>
+        </note>
+            <note type="speaker">Ministr kultury ČR Daniel Herman</note>
+            <u who="#DanielHerman.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u110" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u110.p1">Vážený pane místopředsedo, kolegyně, kolegové, vážená paní poslankyně, děkuji za tuto otázku. Začnu asi odpovědí na její úplný závěr. Nelžu. Řeknu vám ten důvod - protože je to hřích a to je pro mě něco velmi důležitého.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p2">Ale abych udělal krátkou rekapitulaci. Všichni si pamatujeme, že Poslanecká sněmovna někdy v létě, tuším v červnu letošního roku, navrhovala státní vyznamenání, a já jsem se přihlásil k nominaci, která vzešla z prostředí Nového Města na Moravě od pana starosty a zde v Poslanecké sněmovně od pana poslance Karla Černého z klubu sociální demokracie. Poté jsem byl kontaktován Kanceláří prezidenta republiky, konkrétně panem ředitelem Forejtem, který mi doporučil, abych ještě svým dopisem se k této nominaci přihlásil, načež jsem 5. července obdržel dopis Kanceláře prezidenta, který je podepsaný panem kancléřem Mynářem, že se žádostí bude zabývat. Načež jsem se poté 8. září na slovenském velvyslanectví na recepci setkal s panem prezidentem při společenském setkání a on mi tam řekl, že moji nominaci schválil, ale že pokud se setkám s dalajlámou, že ji zruší.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p3">Já jsem byl tímto sdělením šokován, protože takovýto nízký handl jsem opravdu snad ještě v životě nezažil a z úst nejvyššího ústavního činitele České republiky tedy už vůbec ne. Řekl jsem to několika osobám, které to také i mediálně dosvědčily, ale přesto jsem necítil potřebu to tehdy sdělovat veřejnosti, protože jsem sám nevěřil, že by takovýto nízký obchod mohl být realizován.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p4">Načež jsem byl opět 15. září kontaktován panem ředitelem Forejtem, ředitelem Kanceláře prezidenta republiky, s žádostí o setkání, kdy mě požádal nebo vyzval, abych se opět setkal s panem prezidentem - jak všichni členové vlády vědí, s panem prezidentem se lze setkat jedině poté, co se o to požádá -, abychom projednali některé otázky.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p5">20. září u mě byla na návštěvě čínská velvyslankyně, která se se mnou chtěla setkat na večeři. Já jsem to odmítl a řekl jsem, že se setkáme pouze na mém úřadě se svědky, se zápisem, zcela oficiálně. Probírali jsme tam nejrůznější otázky obchodní a kulturní výměny. Paní velvyslankyně hovořila mimo jiné také o územní celistvosti Číny. Já jsem hovořil také o otázce lidských práv, zmínil jsem vězně svědomí, pronásledované křesťany, pronásledované členy hnutí Falun Gong. Za celou dobu asi hodinového rozhovoru slovo dalajláma nepadlo.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p6">Načež 21. září, tedy den nato, jsem dostal telefonát z New Yorku od pana ředitele Forejta s dotazem, že se pan prezident nechá ptát, jak že proběhlo mé setkání s paní čínskou velvyslankyní, což mi přišlo celkem zajímavé.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p7">27. září pak došlo k onomu dalšímu setkání s panem prezidentem, o které jsem na podnět ředitele Kanceláře pana Forejta požádal, a tam pan prezident opět formuloval svoji žádost, abych se nesetkával s tibetským dalajlámou.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p8">Po nějaké době - mohl bych to dokumentovat na výpisu z sms zpráv - mě kontaktoval pan ředitel Forejt s žádostí, abych mu dal kontakty na své příbuzné do Kanady. Poslal jsem mu e-mailovou adresu a telefonické spojení, a moji příbuzní mi sdělili, že jim pan ředitel Forejt skutečně telefonoval a oznámil mému strýci Jiřímu Bradymu, že bylo rozhodnuto o schválení jeho nominace na státní vyznamenání.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p9">Načež jsem se setkal s tibetským dalajlámou. Den nato byl panu premiérovi postoupen seznam nominovaných osob a pan premiér mě informoval, že na tomto seznamu jméno Jiří Brady není, a vypukla celá ta mediální kauza, která se v podstatě do dnešních dnů našimi médii line.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u110.p10">Mohu tedy potvrdit, že stojím plně za vším, co jsem řekl. Tento nízký obchod se mnou skutečně prezident této republiky Miloš Zeman chtěl uzavřít. To je proti všem mým zásadám. Nikdy jsem nic takového nepřislíbil a je pro mě nepřijatelné a mohu říci, že mě uráží, že kdokoli si vůbec dovolil se ke mně takto chovat. Stojím za každým slovem, které jsem řekl, a hájím v tuto chvíli pravdu a mohu říci, že i rovnou páteř našeho státu. Děkuji vám.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u111" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u111.p1">Děkuji panu ministrovi. Paní poslankyně má doplňující otázku. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Věra Kovářová</note>
+            <u who="#VeraKovarova.1964" ana="#regular" xml:id="ps2013-050-07-005-262.u112" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u112.p1">Pane ministře, dovolte mi ještě jednu doplňující otázku. Co soudíte o situaci, kdy úředníci Kanceláře prezidenta republiky dlouhodobě zaujímají výraznější úlohu, než která jim jako úředníkům náleží? V určité nadsázce by se snad dalo hovořit o tom, že máme ne jednu, ale přinejmenším dvě hlavy státu, kdy vedle prezidenta Zemana se velmi výraznou postavou bez jakékoli legitimity stává také mluvčí Ovčáček, kterému tu a tam sekunduje také kancléř Mynář. Tito úředníci říkají to, co si hlava státu zatím nemůže nebo nechce dovolit, což při míře, ve které tak činí, vede k hrubnutí veřejné diskuse. Jak se na tento problém díváte vy? Děkuji za odpověď.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u113" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u113.p1">Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr kultury ČR Daniel Herman</note>
+            <u who="#DanielHerman.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u114" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u114.p1">Děkuji. Mně nepřísluší, abych komentoval činění, priority a osoby, které se pohybují kolem pana prezidenta. Každopádně pokud bych si vzpomněl na dobu, kdy jsem devět roků pracoval také jako tiskový mluvčí, a kdybych se choval jako někteří jiní, kteří v tuto chvíli zastávají tuto pozici na Pražském hradě, tak si nedovedu představit, že by to bylo akceptovatelné a možné.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u114.p2">Zopakoval bych zcela obecně, že každý z nás tím, co děláme a říkáme, vydáváme svědectví především sami o sobě. Chtěl bych využít i tuto interpelaci k tomu, aby si občané dobře vzpomněli při volbách, komu dávají svůj hlas. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u115" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u115.p1">Děkuji panu ministrovi i paní poslankyni. Patnáctou interpelaci přednese pan poslanec Petr Bendl, který bude interpelovat ministra zemědělství Mariana Jurečku ve věci přehrady na Oslavě. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u116" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u116.p1">Děkuji, pane předsedající. Pane ministře, moje otázka je obdobná, jako byla k oblasti řeky Berounky. Týká se tentokrát řeky Oslavy a Chvojnice, na jejímž území plánuje stát vybudování přehrady.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u116.p2">Není to tak dávno, před pár dny, možná týden, dva, kdy sem byla doručena petice zhruba 23 tisíc občanů, kteří protestují proti tomuto záměru. Já se vás chci zeptat, jak se k tomu stavíte, zdali dál pokračujete v přípravách přehrady Čučice na území Oslavy a Chvojnice a zda s touto přehradou i nadále počítáte. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u117" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u117.p1">Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr zemědělství ČR Marian Jurečka</note>
+            <u who="#MarianJurecka.1981" ana="#regular" xml:id="ps2013-050-07-005-262.u118" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050258.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u118.p1">Vážený pane předsedající, kolegyně, kolegové, pane poslanče prostřednictvím pana předsedajícího, pokud jde o zmíněnou studii na případné vodní dílo Čučice na řece Oslavě, tak ta souvislost, proč se tato studie dělala, souvisí s tím, že tady máme generel lokalit, které jsou vyčleněné a kde se drží určitá územní rezerva pro případná vodní díla v České republice. Státní podniky povodí jsou zodpovědné mimo jiné za prověřování vhodnosti těchto lokalit k případnému využití na tato vodní díla.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u118.p2">Povodí Moravy se rozhodlo také jako jednu z lokalit prověřit právě zmíněnou lokalitu Čučice. Nechalo si zpracovat studii, která by dávala odpověď, zdali a v jakém rozsahu by vodní dílo v této lokalitě někdy - podotýkám někdy - v budoucnu teoreticky mohlo vzniknout. Zpracování takové studie neznamená to, že to je konkrétní krok, na který budou navazovat další kroky k realizaci takového vodního díla. Je to jenom otázka vyhodnocení všech okolností, určitá analýza toho, zdali by to bylo v budoucnu reálné, či nikoliv. Tu studii má Povodí Moravy zpracovanou, případně je možné v budoucnu do ní nahlédnout. Nicméně my jako ministerstvo jakožto zakladatel tohoto státního podniku nepředpokládáme, že bychom chtěli dělat další kroky k jakékoli realizaci tohoto vodního díla. Takto jsem to i já dopisem generálnímu řediteli jasně a jednoznačně sdělil. Ten dopis odcházel zhruba asi před jedním a půl, dvěma měsíci, včetně toho, že jsem informaci o tomto dopisu dával dotčeným starostům, kteří v této lokalitě vyjádřili určitou obavu ze vzniku tohoto vodního díla a vlastně jsou také spolusignatáři té petice, která sem byla doručena.</seg>
+               <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm" n="13" xml:id="ps2013-050-07-005-262.pb13" corresp="#ps2013-050-07-005-262.audio13"/>
+               <note type="time">
+            <time when="2016-10-27T16:30:00">(16.30 hodin)</time>
+          </note>
+               <seg xml:id="ps2013-050-07-005-262.u118.p3">Nepředpokládám, že bychom měli ambici spolu s Ministerstvem životního prostředí usilovat o to, aby se tato či jiné lokality z toho generelu vyškrtávaly trvale. Já si myslím, že je dobré, že generel těch lokalit už tady více než 90 let je a bylo by dobré jej do budoucna pro případné potřeby budoucí generace udržet. Takže pro nás jako pro Ministerstvo zemědělství je tady prioritní dneska šest zamýšlených vodních děl. Jedno řekněme je ve finální fázi výkupu pozemku, je to vodní dílo Nové Heřminovy, pak je to debata nad vodním dílem Skalička a pak jsou tady další čtyři vodní díla, dvě ve Středočeském kraji, jedno v Královéhradeckém kraji a jedno ve Zlínském. Na rovinu říkám, že tady těchto šest lokalit je práce na minimálně příštích deset až patnáct let, a nemám ambici se více angažovat v tom, že bychom chtěli rozbíhat nějakou další realizaci v nějaké další lokalitě.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u118.p4">Takže asi tolik moje konkrétní odpověď k případnému vodnímu dílu Čučice.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u119" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u119.p1">Děkuji. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u120" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u120.p1">Děkuji za slovo. Já jsem s těmi komunálními politiky, některými starosty hovořil. Oni protestují proti tomu, aby nadále zůstával tento plán generelu, a budou požadovat a požadují, aby z generelu byl tento plán vyňat. Opírají se o odborná stanoviska nejenom z oblasti ochrany přírody, ale i odborná stanoviska vyplývající z nedaleké elektrárny, která k tomu dávala stanovisko, že vodu nepotřebuje, že má dostatek zásob i do budoucna a není třeba takovouto přehradní nádrž stavět. Takže já tedy si myslím, že je třeba vyjít jim v tomto ohledu vstříc, a pokud vím, tak budou požadovat od vás jako od Ministerstva zemědělství, tak i od kraje, aby celá tato lokalita byla z generelu do budoucna vyňata.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u121" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u121.p1">Prosím, pane ministře, vaše doplňující odpověď.</seg>
+            </u>
+            <note type="speaker">Ministr zemědělství ČR Marian Jurečka</note>
+            <u who="#MarianJurecka.1981" ana="#regular" xml:id="ps2013-050-07-005-262.u122" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u122.p1">Děkuji, děkuji. Já na to zareaguji jenom tím, že s ohledem na určitou zodpovědnost vůči budoucím generacím, kdy nikdo z nás, kdo tady je, ani starostové dotčených obcí, nemůžeme říct, jaká bude klimatická situace v České republice za příštích 80, 100, 150 let. Proto já si myslím, že když už ten generel tady vznikl, když už je tady desítky let, tak dneska přijít a začít vyjímat jednu lokalitu po druhé může být velice nezodpovědné. Může se stát, že za sto let budou naše vnoučata, pravnoučata v situaci, kdy ty klimatické změny budou tak vážné, že potom ty důvody pro akumulaci vody v různých lokalitách budou mít výrazně vyšší prioritu než hájení těchto lokalit z mnoha různých, ať už environmentálních, či jiných zájmů. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u123" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u123.p1">Děkuji panu ministrovi. Pan poslanec Ludvík Hovorka bude v 16. interpelaci interpelovat pana ministra zahraničí Lubomíra Zaorálka ve věci systému VISAPOINT. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Ludvík Hovorka</note>
+            <u who="#LudvikHovorka.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u124" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u124.p1">Děkuji za slovo. Vážený pane ministře, už opakovaně vás interpeluji ve věci systému VISAPOINT, což je systém, podle kterého žádají o víza lidé z Ukrajiny, z jiných zemí bývalého sovětského bloku nebo ve Vietnamu apod. Ten systém právě na Ukrajině je označován za netransparentní, poukazují na to zprávy Bezpečnostní informační služby a i sami žadatelé uvádějí, že se do něho nemohou normálně přihlásit, protože termíny jsou zablokované. Zřejmě určité roboty vlastně generují pro určité prostředníky termíny a pro normální smrtelníky se nedostává termín, kdy se mohou zaregistrovat k pohovoru na ambasádě. Já jsem mluvil s úřednicí ministerstva, která mi říkala, že ministerstvo se snaží ty věci odstranit. Na jedné straně je tady požadavek průmyslových podniků, textilních dílen, ale i nemocnic, kterým chybí lékaři a sestry, na pracovní síly z Ukrajiny. Na druhé straně je tady systém, který je velmi komplikovaný, těží z toho zřejmě nějaké mafie nebo prostředníci. Mně to nejde prostě dohromady, že Česká republika si tímto způsobem vysloužila i řekněme opovržení za tento systém v cizině.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u124.p2">Chtěl bych požádat o informace, kdo je technickým provozovatelem toho systému, kde jsou příslušné servery tohoto systému, jestli v České republice, nebo na zahraničních konzulátech, nebo jinde, kdo nad tím systémem má přímou kontrolu a dozorové pravomoci. Je možné zpětně zjistit, jak často je systém spouštěn, z jakých adres se do toho systému přihlašují potenciální zájemci o vízum? Jsou tyto adresy identické s adresami konkrétních žadatelů a kolik nás stojí provozování tohoto systému?</seg>
+               <kinesic type="gesture">
+                  <desc>(Předsedající upozorňuje na čas.)</desc>
+               </kinesic>
+               <seg xml:id="ps2013-050-07-005-262.u124.p3">Děkuji za případné odpovědi.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u125" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u125.p1">Děkuji panu poslanci. Pan ministr není přítomen, bude mu tedy odpovězeno písemně.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u125.p2">Pan poslanec Marek Černoch bude interpelovat pana ministra Richarda Brabce ve věci retenční nádrže v CHKO Křivoklát. Prosím.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u126" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u126.p1">Děkuji za slovo, pane předsedající. Moje interpelace se týká sice zatím pozdrženého projektu zničení části nejkrásnějšího povodí Berounky od Roztok až po Plzeň. Údajnou iniciativou starostů na dolním toku řeky Berounky byla Povodím Berounky zadána studie v ceně cca půl milionu korun, která měla posvětit výstavbu takzvané suché retenční nádrže bez hráze umístěné ve čtyřech případných místech v úseku od Roztok nad Berounkou až pod Nezabudice. Náklady stavby hráze by zatím byly asi pět miliard korun. Hráz by údajně chránila obyvatele od Roztok až k Praze, ale hlavně by asi zvýšila ceny stavebních pozemků v tomto úseku, což by potěšilo příslušné spekulanty. V podstatě by došlo na horním toku Berounky k zničení nejkrásnějšího místa v okolí Prahy, které se také nazývá kraj Oty Pavla, který zde situoval velkou část svých povídek, například Smrt krásných srnců, Zlatí úhoři atd. Při možné povodni by se nádrž naplnila, aby pak čistá voda odtekla do Hamburku, a uprostřed CHKO Křivoklát bude hnít několikametrová vrstva bahna, stromů a mrtvých zvířat. Přitom příslušné úřady si dosud nevěděly rady ani s pravidelnými naplaveninami vzniklými normálním průtokem řeky. Proti projektu se zvedl masivní odpor místních občanů vedený jejich starosty včetně místních rekreantů, vodáků a všech, kterým záleží na zachování krásné přírody pro příští generace.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u126.p2">Proto bych se rád zeptal, pane ministře, na dvě otázky. Za prvé, jak vláda zajistí, aby následující vlády nemohly opět pokračovat v ničení středu CHKO Křivoklát, například svým závazným usnesením atd., a za druhé, proč se nemohou zbytečně vyhozené prostředky použít k odstranění přirozených naplavenin na Berounce. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u127" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u127.p1">Děkuji. Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr životního prostředí ČR Richard Brabec</note>
+            <u who="#RichardBrabec.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u128" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050259.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u128.p1">Děkuji za slovo. Vážený pane předsedající, vážení nemnozí kolegové, pozůstalí v těchto pozdních odpoledních hodinách. <vocal type="laughter"><desc>(Smích v sále.)</desc></vocal> Děkuji za dotaz.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u128.p2">Já vás chci ujistit, pane kolego, a myslím, že velmi podobný dotaz dneska vznášel pan poslanec Bendl na mého kolegu pana ministra Jurečku, já vás mohu ujistit, že mám pevné přesvědčení, že tedy nehrozí ani smrt krásných srnců a budou tam i dál zlatí úhoři. Je to mimo jiné i krajina mého srdce, protože pocházím z Kladna, kde jsem dlouho žil, takže samozřejmě Berounka je něco, k čemu mám i já velmi blízký vztah. Já vůbec celou tu kauzu, která se kolem toho rozpoutala, považuji za spíš jakoby určitý nezdařený pokus, ale nakonec s dobrým koncem, jak tedy ověřit, že opravdu ten záměr vyvolal tak velkou odezvu. A já jsem mimochodem také byl účastníkem jedné z těch protestních akcí, která se tam v Roztokách k této věci dělala, a troufám si říct, že také Ministerstvo životního prostředí se svým dílem podílelo na tom, že nakonec ten odpor vygradoval až k odmítnutí a ke společnému stanovisku, které tady, předpokládám, pan kolega Jurečka už dneska citoval v jiné interpelaci, společnému stanovisku Ministerstva zemědělství, Povodí Vltavy a petičního výboru Ne vodnímu dílu Křivoklát a dotčených obcí, kde bylo jasně řečeno, že se tato nádrž nechystá a že tedy lidé nemusí mít obavy z jejích dopadů.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u128.p3">K vašim dotazům lze říct, že samozřejmě já si myslím, že dneska k tomu není potřeba usnesení vlády, protože na rozdíl od jiných toto vodní dílo není vlastně součástí generelu lokalit přirozené akumulace povrchových vod a je naprosto zřejmé, že jakýkoliv další pokus třeba budoucí vlády nebo budoucího ministra zemědělství by skončil stejně. A upřímně řečeno, ta nová vláda by se ani nemusela cítit vázána usnesením vlády minulé k tomuto a dělat zákon k této konkrétní akci bych nepovažoval za dobrý nápad.</seg>
+               <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm" n="14" xml:id="ps2013-050-07-005-262.pb14" corresp="#ps2013-050-07-005-262.audio14"/>
+               <note type="time">
+            <time when="2016-10-27T16:40:00">(16.40 hodin)</time>
+          </note>
+               <seg xml:id="ps2013-050-07-005-262.u128.p4">Takže si myslím, že je dneska naprosto dostatečné to, že je jasné - a ukázalo se opět, že toto megalomanské dílo by mělo daleko víc minusů než plusů a že je tam tak zásadní vliv na životní prostředí, který by vždycky, v jakémkoliv budoucím pokusu, nutně skončil tím, že to dílo by bylo odmítnuto. Myslím si, že nakonec tomu dopomohla i ta studie. I když souhlasím s tím, že i bez té studie by se asi dalo zjistit, že reakce okolí bude taková. Jinými slovy, i bez té studie by se dalo zjistit, že všechny dopady, konflikty s nemovitostmi, konflikty s tisíci lidmi, kteří tam bydlí, problematika sesuvů těch bočních svahů a celá řada dalších otázek. Bylo prostě jasné, že by musely být naprosto dramatické důvody, aby takové dílo mohlo být ospravedlněno, a ty důvody zjevně nenastaly. Takže vás můžu ujistit o tom, že je velmi, velmi pravděpodobné, že ani v budoucnu se nebudou muset obyvatelé této lokality bát toho, že by jejich domovy byly zaplaveny. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u129" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u129.p1">Prosím, pane poslanče, vaše doplňující otázka.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u130" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u130.p1">Děkuji za odpověď, pane ministře. Jenom krátkou doplňující otázku. Letos v létě se tam utopil na jezu vodák, díky tomu, že tam CHKO Křivoklát, hlavně s panem vedoucím inženýrem Hůlou, brání opravě jezu ve Šlovicích. Je možné s těmito lidmi nějakým způsobem vejít v kontakt, tak aby nebránili těmto aktivitám, které si myslím, že rozhodně přispívají k té přírodě i k bezpečnosti? Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u131" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u131.p1">Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr životního prostředí ČR Richard Brabec</note>
+            <u who="#RichardBrabec.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u132" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u132.p1">Já se omlouvám. Na tohle teď tady nejsem úplně připraven, na ten detail. Ale můžu vám říct jasně, že možnost o tom jednat tady samozřejmě je, a můžeme se pak domluvit na konkrétním jednání. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u133" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u133.p1">Děkuji. V osmnácté interpelaci pan poslanec Radim Holeček bude interpelovat pana ministra dopravy Dana Ťoka ve věci nemovitostí Českých drah na Ústecku. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Radim Holeček</note>
+            <u who="#RadimHolecek.1976" ana="#regular" xml:id="ps2013-050-07-005-262.u134" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u134.p1">Vážený pane ministře, v Ústeckém kraji je v tuto chvíli dvacet objektů, které České dráhy nepotřebují a chtějí se jich zbavit. Nebudu mluvit o rekreačních střediscích či domcích. Dnes vás interpeluji ve věci prodeje chátrajícího východního nádraží v Děčíně. Tato stavba je již delší dobu na prodej a jediným zájemcem v tuto chvíli je ČVUT spolu s hospodářskou a sociální radou okresu Děčín. Avšak vlastník nemovitosti, tedy České dráhy, chce nádraží prodat za 27 mil. korun, což je pro partnery projektu neakceptovatelné. V této budově chce škola zřídit nové vzdělávací centrum, přesný název Multifunkční vzdělávací centrum nádraží Rakouské severozápadní dráhy v Děčíně. Bylo by skvělým lákadlem pro studium mladých lidí v našem kraji.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u134.p2">Prosím vás tedy o jakousi přímluvu u Českých drah, jestli by cena nemohla být pro školu schůdnější. Děkuji za pozornost.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u135" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u135.p1">Děkuji panu poslanci. Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u136" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u136.p1">Vážený pane místopředsedo, vážené poslankyně a poslanci, budova východního nádraží v Děčíně nebyla v rámci letošního prodeje nádražních budov převedena na SŽDC, neboť již od minulého století neslouží jako nádraží. Je tedy stále ve vlastnictví Českých drah. České dráhy prodávají nemovitosti subjektům, které vykonávají obecně prospěšnou činnost, obcím, nebo v tomto případě vysoké škole za cenu dle znaleckého posudku. Tato praxe byla uplatněna i v případě zájmu o tuto budovu ze strany ČVUT. Dle informací, které máme nyní k dispozici, je stále o prodeji mezi ČVUT a ČD jednáno s tím, že je zvažována i možnost takzvaného revizního posudku s cílem mít k dispozici a porovnat alespoň dvě kupní ceny.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u136.p2">Na základě toho vašeho vysvětlení to projednám s vedení Českých drah. Přijde mi vhodné, aby tato budova byla rozumným způsobem využita pro účely, o kterých jste hovořil. Takže se podívám, jak jsou daleko s tím revizním posudkem, a podívám se na to, zdali by se v té věci nedalo něco udělat tak, aby tam nešlo jenom o maximalizaci zisku z prodeje, ale i o nějaký společenský zájem. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u137" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u137.p1">Díky. Pan poslanec nemá zájem. Devatenáctou interpelaci pan poslanec Mackovík stáhl, takže se dostáváme k dvacáté. Pan poslanec Petr Bendl bude interpelovat pana ministra Dana Ťoka ve věci instalace svodidel na státních komunikacích. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u138" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u138.p1">Děkuji za slovo. Pane ministře, jak jezdíme po České republice, sledujeme, co se na našich silnicích děje. Tak nejenom na karlovarské dálnici D6, ale i jiných dochází k výměnám svodidel. Dnes už se tady o tom částečně mluvilo. Ta svodidla se vyměňují na kilometrových vzdálenostech bez ohledu na to, že se třeba pracuje na řádu, řeknu, desítek metrů. Přesto ta dopravní opatření jsou dělaná v kilometrových délkách, což komplikuje, zvlášť v území Středočeský kraj versus Praha, kde denně jezdí do práce desítky tisíc lidí. Všichni si ťukají na čelo, co to má znamenat. Jednak - proč je to vlastně tak dlouhé? Proč nemůže ŘSD přebírat ta svodidla po kratších úsecích? Proč musí být vždycky to omezení tak neskutečně dlouhé? Jestli to není jenom lenost Ředitelství silnic a dálnic.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u138.p2">Za druhé jsem se chtěl zeptat, proč se to vlastně musí dělat. Protože ta svodidla - a já vám můžu ukázat osobní dokumentaci, kterou jsem si udělal - jsou pouze zoxidovaná, ale mění se za nová. Tak chci vědět důvody, proč se tak děje. Jestli byste k celé té záležitosti mohl něco říct. Pokud to nemáte, tak klidně i poslat. Kdy bylo vypsáno výběrové řízení, kdo to dělá a kolik to stálo? Alespoň na těch dálnicích, tak jak je to uděláno. To vím, že asi tady mít v tuto chvíli nebudete, ale prosím vás o to, abyste mi to poslal.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u139" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r11">
+               <seg xml:id="ps2013-050-07-005-262.u139.p1">Prosím, pane ministře, o vaši odpověď.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u140" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050260.htm#r12">
+               <seg xml:id="ps2013-050-07-005-262.u140.p1">Vážený pane místopředsedo, vážené paní poslankyně, vážení páni poslanci, výměna svodidel byla prováděna především z důvodu zvýšení úrovně bezpečnosti pro účastníky silničního provozu a stavu svodidel, protože na nejstarších úsecích dálnic byla svodidla stará i několik desítek let a jejich technický stav byl na hranici životnosti. Z provedených bezpečnostních inspekcí a identifikací rizik bylo také nutné svodidla doplňovat do nových úseků. Některá se musela prodlužovat, a to zejména před překážkami nebo místy, kde hrozí sjetí vozidla ze srázu. Výměnou svodidel zároveň dochází ke zvyšování úrovně zadržení na H2 v potenciálně nebezpečných úsecích. Jedná se o pilíře mostů, stojky portálů dopravního značení nebo mýta a podobně. Zde jsou historicky často osazena svodidla úrovně zadržení N2. Tím, že zvýšíme stupeň zadržení, mnohem lépe zabráníme proražení svodidel a přejetí vozidla do protisměru.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u140.p2">Na závěr bych rád uvedl, že výměna svodidel je plně v souladu s národní strategií bezpečnosti silničního provozu pro roky 2011 až 2020, kde je jedním z vytyčených cílů zajištění bezpečné silniční infrastruktury. Informace týkající se přehledu jednotlivých staveb, kde došlo k výměně svodidel, kdy bylo předběžné oznámení, kdy byla uzavřena smlouva a jaká byla cena, vám mohu předat ihned, popřípadě pokud byste chtěl ještě podrobnější informace, tak vám je samozřejmě poskytnout můžu.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u140.p3">A teď ještě krátce k tomu vašemu dotazu v té délce, což je samozřejmě věc, která zajímala a zajímá i mě. Za prvé, při výměně svodidel jsme se na většině úseků snažili a snažíme zabezpečit - a myslím si, že se nám to daří ve většině případů - provoz ve dvou pruzích. Je to tedy ve dvou zúžených pruzích, samozřejmě, a nemělo by to mít zásadní vliv na zdržení.</seg>
+               <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm" n="15" xml:id="ps2013-050-07-005-262.pb15" corresp="#ps2013-050-07-005-262.audio15"/>
+               <note type="time">
+            <time when="2016-10-27T16:50:00">(16.50 hodin)</time>
+          </note>
+               <seg xml:id="ps2013-050-07-005-262.u140.p4">Na druhé straně s vámi souhlasím, že model, který zvolilo ŘSD, je záležitostí, která optimalizuje tu zakázku natolik, aby se dala taková vzdálenost, která umožní vysoutěžit co nejlepší nabídkovou cenu. Bohužel se v těchto soutěžích v minulosti nikdy nezohledňoval řekl bych komfort provozu a další záležitosti. Tuhle otázku optimální délky, na které by se mělo, nebo nemělo opravovat, a i tu záležitost omezení do dvou zúžených pruhů jsem projednával při své návštěvě Švýcarska se svou resortní kolegyní švýcarskou ministryní dopravy. Tam rovněž dneska přemýšlejí, že by do těch principů oprav zakalkulovali komfort pro řidiče. Takže dneska chci začít, nebo začal jsem už a chci od ŘSD, abychom se znova podívali na možnost například revize toho, zdali je nutné uzavírat tak dlouhé úseky a soutěžit to na tak dlouhé úseky, jestli by se neměl víc zohledňovat komfort pro řidiče. Nicméně tento požadavek na ŘSD nikdo nikdy přede mnou nevznesl. A já se tím budu dále zabývat. Chtěl bych, abychom zrevidovali i tuhle tu část.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u140.p5">Dnešní revize je, že ty úseky jsou z dlouhodobého hlediska, z expertních posudků spíše posuzovány na to, aby bylo lze vysoutěžit nejoptimálnější cenu, aby se tam vyplatilo navézt materiál, navézt techniku, která to dělá. Děkuju.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u141" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u141.p1">Děkuji panu ministrovi. Pan poslanec má doplňující otázku.</seg>
+            </u>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u142" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u142.p1">Myslím, že v případě svodidel je to hrozně jednoduché. Tam je to jenom otázka se domluvit na tom, že začnou přebírat jednotlivé části a nebudou čekat, až se udělají celé dva kilometry, ale přeberou půl kilometru a pak zase půl kilometru. To si nejsem jistý, že by to s cenou nějak super hýbalo. Myslím si, že to je jenom technická věc, o které se dá mluvit. Jenom se musí chtít. A myslím si tedy, že ŘSD se spíš nechce. Tak to dodělejte a nám je to úplně jedno, kolik lidí tady jezdí. Mám z toho tady tenhle ten pocit.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u142.p2">U D6 musím říct, že to je jedna z nedávno dokončených v některých těch částech v České republice. Ta svodidla tam byla v podstatě opravdu jenom zoxidovaná. A stejně se vyměňují. Při stavu silnic v České republice, když vidím, jak se tady prostě dávají svodidla, která jsou evidentně funkční, k žádným velkým tragédiím na té části středočeské D6 nedochází. Myslím, že to statistika potvrdí. O ničem takovém nevím. A dělá se tam takováhle výměna... <kinesic type="gesture"><desc>(Upozornění na čas.)</desc></kinesic> A věřte mi, že lidi si tam ťukají na čelo, proč se to dělá a proč se radši neopravují silnice, kde se opravovat mají.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u143" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u143.p1">Prosím, pane ministře.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u144" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u144.p1">Vážený pane místopředsedo, vážený pane poslanče Bendle prostřednictvím pana předsedajícího, z jedné strany máte pravdu. Těchhle argumentů slyším samozřejmě hodně. Na druhé straně i ta svodidla na D6 jsou svodidla, která jsou s vyšším záchytným stupněm, takže je to důležité.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u144.p2">A ještě k těm uzavírkám. To není otázka nechuti nebo bezpečnosti. To je i otázka pohybu na komunikaci a další věci. Pokud s tím značením hýbáte hodně často, pokud se používaly i metody, že se převáděl ve třech pruzích provoz ze dvou do jednoho třeba přes den vzhledem k hodinám, tak to mělo výrazný vliv na bezpečnost, zranění a smrtelné nehody. Ono to možná tak nevypadá, ale my prostě bohužel i na ŘSD máme několik smrtelných dopravních nehod v roce způsobených tím, že spící kamionista si nevšimne, že tam něco má, a toho člověka tam zramuje i s jeho zařízením. Takže je to otázka bezpečnosti. A myslím si, že to je takové zjednodušení. Prostě není to tak, že bychom potřebovali utratit peníze, jak se často píše, a dělali někomu něco naschvál, to v žádném případě, ale jsou to prostě schválené postupy, které jsou dlouhodobě schválené. A vy o tom určitě víte svoje, když jste seděl na ministerstvu a řídil jste Ředitelství silnic a dálnic.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u144.p3">Určitě se na to chci podívat a slibuji, že vám dám zprávu. A tady vám předám ten dokument, který jsem slíbil.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u145" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u145.p1">Děkuju. Další interpelaci přednese pan poslanec Marek Černoch, taktéž na pana ministra Dana Ťoka, ve věci modernizace tratě Hlavní nádraží - Hostivař. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u146" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u146.p1">Děkuji za slovo. Dobrý den, pane ministře. Správa železniční dopravní cesty v srpnu tohoto roku zrušila soutěž na modernizaci tratě mezi pražským Hlavním nádražím a Hostivaří s odůvodněním, že nebylo možno dodatečně posoudit kvalifikační předpoklady všech firem, které o zakázku stály a přihlásily se do soutěže. Firma, která zakázku vyhrála, byla o 800 milionů korun levnější než jiné firmy. Důvod zrušení zakázky zpochybnila také paní Koláčková, ředitelka společnosti OTIDEA, která se zabývá administrací a poradenstvím ve věci veřejných zakázek. Cituji: "Pokud by důvodem pro zrušení bylo skutečně jen to, že nebylo možné zjistit a učinit jednoznačný závěr o posouzení kvalifikace uchazečů, pak je dle našeho názoru takový důvod nedostatečný. Zákon definuje zcela jednoznačně důvody pro zrušení a takový důvod, který se uvádí, se v rámci zákona nenachází." Z tohoto vyjádření tedy vyplývá, že došlo k protizákonnému jednání. Z informací, které mám, se odbor auditu, kontroly a dozoru Ministerstva dopravy s důvody, pro které SŽDC tendr zrušilo, neztotožnil. Postup SŽDC měl být vnitřním auditem Ministerstva dopravy dokonce označen za nezákonný.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u146.p2">Žádám vás tedy, pane ministře, o předložení auditní zprávy týkající se postupu SŽDC k této zakázce. A ptám se, jaké konkrétní personální důsledky budou mít závěry předmětné auditní zprávy a zda bylo podáno trestní oznámení. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u147" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u147.p1">Děkuji. Prosím, pane ministře, máte slovo.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u148" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r8">
+               <seg xml:id="ps2013-050-07-005-262.u148.p1">Vážený pane místopředsedo, vážené paní poslankyně, poslanci, jenom krátce. Teď nechci úplně polemizovat s tím vším, co tady bylo řečeno. Jenom jedna informace. Správa železniční dopravní cesty jako sektorový dodavatel si vyhradila v podmínkách vypsání, že může soutěž zrušit bez udání důvodů, což učinila. Takže dneska říkat, jaké měla možnost udělat důvody, nebo neměla, je skoro zbytečné, protože i posouzení ÚOHS, které tady proběhlo, proběhlo v tomto smyslu. Prostě to právo tam bylo.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u148.p2">Na druhé straně jsem řekl, že se mi ta situace nelíbí, že se mi zdá nestandardní, a chtěl jsem vysvětlení a poslal jsem na SŽDC interní audit. Interní audit vypracoval kontrolní zprávu. Ta kontrola byla zahájena dne 23. 8. V současné době je kontrola ve fázi vypořádání námitek podaných v zákonné lhůtě Správou železniční dopravní cesty. Takže mě docela překvapilo, že jste hovořil i o závěrech toho auditu, když není dokončený. Nicméně je zatím ve fázi, že byl předložen SŽDC a SŽDC k tomu dává dneska námitky. Jinými slovy, pokud ta kontrola nebyla ukončena ve smyslu zákona o kontrole, nejsem schopen poskytnout v této fázi její závěry. V okamžiku, kdy bude hotová, tak vám ji určitě předložím a budu schopen odpovědět i na oba dva dotazy, které jste položil. Děkuju.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u149" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r9">
+               <seg xml:id="ps2013-050-07-005-262.u149.p1">Doplňující otázka pana poslance. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Marek Černoch</note>
+            <u who="#MarekCernoch.1969" ana="#regular" xml:id="ps2013-050-07-005-262.u150" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r10">
+               <seg xml:id="ps2013-050-07-005-262.u150.p1">Máte, pane ministře, prosím nějakou časovou představu, kdy by měla být auditní zpráva zpracována? Děkuji.</seg>
+            </u>
+            <note type="speaker">Ministr dopravy ČR Dan Ťok</note>
+            <u who="#DanTok.1959" ana="#regular" xml:id="ps2013-050-07-005-262.u151" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050261.htm#r11">
+               <seg xml:id="ps2013-050-07-005-262.u151.p1">Ano, mělo by to být v řádu teď týdne, maximálně 14 dnů, to znamená, ona je zpracována, teď se vypořádávají připomínky, jakmile se vypořádají, tak se vydá, a tím pádem bude k dispozici. Myslím si, že by to mělo dopadnout v příštím týdnu nebo v tom týdnu dalším. Delší časový termín tam nebude.</seg>
+            </u>
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm" n="16" xml:id="ps2013-050-07-005-262.pb16" corresp="#ps2013-050-07-005-262.audio16"/>
+            <note type="time">
+          <time when="2016-10-27T17:00:00">(17.00 hodin)</time>
+        </note>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u152" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r1">
+               <seg xml:id="ps2013-050-07-005-262.u152.p1">Děkuji. Další, 22. interpelaci přednese paní poslankyně Věra Kovářová, která bude interpelovat pana ministra zdravotnictví Svatopluka Němečka ve věci hlukového mapování. Prosím, paní poslankyně.</seg>
+            </u>
+            <note type="speaker">Poslankyně Věra Kovářová</note>
+            <u who="#VeraKovarova.1964" ana="#regular" xml:id="ps2013-050-07-005-262.u153" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r2">
+               <seg xml:id="ps2013-050-07-005-262.u153.p1">Děkuji. Vážený pane ministře, v září jsem interpelovala paní ministryni Šlechtovou ohledně návrhu vyhlášky o stanovení seznamu aglomerací pro účely hodnocení a snižování hluku, která je ve srovnání s předchozí verzí dosti reduktivní. Pro účely hodnocení a snižování hluku se počítá jen s oblastmi vnitřní Prahy. Okrajové části Prahy a přiléhající části Středočeského kraje, se kterými dosavadní vyhláška počítala, mají být z hlukového mapování nově vyškrtnuty. Pochopitelně vznikají obavy nejen na straně dotčených městských částí, ale i středočeských obcí a měst. Zaznamenala jsem, že proti tomuto návrhu vystoupilo v meziresortním připomínkovém řízení Ministerstvo zdravotnictví, které dokonce požaduje jeho stažení z legislativního procesu.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u153.p2">Mohl byste, pane ministře, osvětlit důvody, které k tomu Ministerstvo zdravotnictví vedly, a případně také nastínit, jaká v současnosti probíhají ohledně budoucnosti tohoto návrhu jednání? Děkuji za písemnou odpověď.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u154" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r3">
+               <seg xml:id="ps2013-050-07-005-262.u154.p1">Děkuji. Paní poslankyni bude odpovězeno písemně. 23. interpelaci pan poslanec Holeček stáhl. 24. interpelaci přednese pan poslanec Ludvík Hovorka, který bude interpelovat nepřítomného ministra Martina Stropnického ve věci ukončení delaborace raketového paliva ve Vrběticích. Prosím, pane poslanče.</seg>
+            </u>
+            <note type="speaker">Poslanec Ludvík Hovorka</note>
+            <u who="#LudvikHovorka.1963" ana="#regular" xml:id="ps2013-050-07-005-262.u155" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r4">
+               <seg xml:id="ps2013-050-07-005-262.u155.p1">Děkuji za slovo. Vážený pane ministře, vy jste tady 21. dubna v odpovědi na mou interpelaci uvedl, že veškeré nájemní smlouvy, které jsou uzavřeny ze strany VTÚ Slavičín a týkají se pronájmu jednotlivých zařízení a jednotlivých staveb a pozemků v areálu Vrbětice, budou vypovězeny k datu 31. 10. letošního roku. I provoz delaborace raketového paliva firmou Eruca Technologies, která je právě právním nástupcem firmy Bochemie, bude taktéž vypovězen k datu 31. 10. letošního roku a provoz delaborace bude ukončen dne 31. 12. letošního roku. Chci se jenom ujistit, že tato slova platí a že VTÚ učinil příslušné kroky, to znamená, předložil výpověď firmě Eruca Technologies a že tato recyklace raketového paliva bude skutečně ukončena.</seg>
+               <seg xml:id="ps2013-050-07-005-262.u155.p2">Dále se chci zeptat, jestli máte jako ministerstvo nebo VTÚ Slavičín nějakou závěrečnou bilanci, to znamená přínos za dobu pronájmu pozemků a budov v areálu Vrbětice a veškerých nákladů, které byly spojeny s likvidací následků havárie, to znamená vyklizení munice, odminování veškerých pozemků, uvedení do původního stavu, ostraha a podobně. Jestli mě můžete seznámit s tím, kolik byly celkové náklady za tuto akci a jestli je bilance výrazně záporná. Děkuji.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u156" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r5">
+               <seg xml:id="ps2013-050-07-005-262.u156.p1">Děkuji. Panu poslanci bude odpovězeno písemně. 25. interpelace byla stažena. Dostáváme se k 26. Pan poslanec Petr Bendl bude interpelovat nepřítomného ministra financí Andreje Babiše ve věci čerpání evropských fondů za období 2014 až 2020.</seg>
+            </u>
+            <note type="speaker">Poslanec Petr Bendl</note>
+            <u who="#PetrBendl.1966" ana="#regular" xml:id="ps2013-050-07-005-262.u157" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r6">
+               <seg xml:id="ps2013-050-07-005-262.u157.p1">Děkuji, pane předsedající. Moje otázka je jednoduchá. Mě zajímá celkový stav čerpání evropských fondů, které má Česká republika na léta 2014 až 2020 k dispozici. Proto prosím o odpověď na otázku, kolik Česká republika má celkem k dispozici finančních prostředků z EU na léta 2014 až 2020. Kolik bylo už doposud vyčerpáno a kolik bylo finančních prostředků zesmluvněno? Dále mě zajímá, kolik finančních prostředků plánovaných v rozpočtu na rok 2016 v jednotlivých kapitolách státního rozpočtu bude proinvestováno a jaký byl plán, to znamená, jakou očekáváte skutečnost ke konci roku 2016 a kolik finančních prostředků do rozpočtu EU měly jednotlivé kapitoly státního rozpočtu v plánu. Děkuji vám za vaši odpověď.</seg>
+            </u>
+            <note type="speaker">Místopředseda PSP Petr Gazdík</note>
+            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ps2013-050-07-005-262.u158" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r7">
+               <seg xml:id="ps2013-050-07-005-262.u158.p1">Děkuji. Omlouvám se panu poslanci Hovorkovi, ale dle jednacího řádu musí být přítomen alespoň jeden ministr, což bohužel v tuto chvíli není pravda, takže přerušuji jednání Sněmovny do úterý 8. listopadu, kdy budeme pokračovat pevně zařazenými body dle programu. Děkuji a přeji vám hezký večer.</seg>
+            </u>
+            <note type="time">
+          <time when="2016-10-27T17:05:00">(Jednání skončilo v 17.05 hodin.)</time>
+        </note>
+         </div>
+      </body>
+   </text>
+</TEI>
