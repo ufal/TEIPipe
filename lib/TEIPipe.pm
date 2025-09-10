@@ -36,6 +36,7 @@ See L<https://dev.perl.org/licenses/>.
 
 use strict;
 use warnings;
+use utf8;
 use TEIPipe::Tools;
 
 use Data::Dumper;
@@ -54,8 +55,13 @@ sub new {
     die "module is not set" unless exists $step_opt->{module};
     my $module = $step_opt->{module};
     TEIPipe::Tools::load_tool($module);
-    my $step = $module->new($step_opt->{setting}, seen => \%steps_seen, global => $opts->{global}//{});
-    for my $type ($step->type()) {
+    my $step = $module->new(local => $step_opt->{setting}, seen => \%steps_seen, global => $opts->{global}//{});
+print STDERR "STEP: $step\n";
+    for my $p ($step->prereq_types) {
+      die "missing prerequisity of type $p\n" unless exists $steps_seen{$p};
+    }
+
+    for my $type ($step->result_types) {
       die "ERROR: only first command is allowed to be an input type\n" if $type eq 'input' && @{$self->{steps}} > 0;
       die "ERROR: first command has to be an input type\n" if $type ne 'input' && not($self->{input});
       $steps_seen{$type} = 0 unless exists $steps_seen{$type};
@@ -76,12 +82,10 @@ sub new {
 sub run {
   my $self = shift;
   while(my $input = $self->{input}->next()) {
-    $input->{to_modify} = TEIPipe::Formats::TEI::tei_texts($input->{xml});
+    ##$input->{to_modify} = TEIPipe::Formats::TEI::tei_texts($input->{xml});
     print "INFO: processing ",$input->relative_input_path,"\n";
     my $step_result = $input;
     for my $step (@{$self->{steps}}) {
-      next if !$input->{to_modify} && $step->type('modify');
-      $step->{to_modify} = $input->{to_modify};
       $step_result = $step->run($step_result);
     }
 

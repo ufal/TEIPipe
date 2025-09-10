@@ -12,8 +12,11 @@ dist.ini
 lib/TEIPipe.pm
 lib/TEIPipe/CLI.pm
 lib/TEIPipe/Common.pm
+lib/TEIPipe/Converter/TEIpar2JSON.pm
 lib/TEIPipe/Data.pm
+lib/TEIPipe/Formats/JSONL.pm
 lib/TEIPipe/Formats/TEI.pm
+lib/TEIPipe/Tool.pm
 lib/TEIPipe/Tools.pm
 lib/TEIPipe/Tools/NameTag.pm
 lib/TEIPipe/Tools/NameTag/API.pm
@@ -25,6 +28,16 @@ t/00-compile.t
 t/00-report-prereqs.dd
 t/00-report-prereqs.t
 t/pod.t
+xt/author/corpora/ParCzech/ParCzech-listOrg.xml
+xt/author/corpora/ParCzech/ParCzech-listPerson.xml
+xt/author/corpora/ParCzech/ParCzech.xml
+xt/author/corpora/ParCzech/ps2013-050-07-005-262.xml
+xt/author/corpora/ParCzech/ps2017-040-02-005-012.xml
+xt/author/corpora/ParCzech/ps2021-071-07-000-000.xml
+xt/author/corpora/ParCzech/taxonomy-meeting.parts.xml
+xt/author/corpora/ParCzech/taxonomy-parla.legislature.xml
+xt/author/corpora/ParCzech/taxonomy-parla.links.xml
+xt/author/corpora/ParCzech/taxonomy-speaker_types.xml
 xt/author/corpora/ParlaMint-CZ/2016/ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.xml
 xt/author/corpora/ParlaMint-CZ/2020/ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.xml
 xt/author/corpora/ParlaMint-CZ/2023/ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.xml
@@ -62,6 +75,7 @@ xt/author/corpora/ParlaMint-UA/ParlaMint-taxonomy-subcorpus.xml
 xt/author/eol.t
 xt/author/lib/bootstrap.pl
 xt/author/no-tabs.t
+xt/author/pipeline.t
 xt/author/pod-syntax.t
 xt/author/read-write.t
 xt/release/kwalitee.t

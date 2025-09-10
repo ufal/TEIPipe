@@ -4,6 +4,7 @@ package TEIPipe::Common;
 
 use strict;
 use warnings;
+use utf8;
 use File::Spec;
 use List::Util qw(min);
 use List::MoreUtils qw(all);

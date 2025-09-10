@@ -1,7 +1,11 @@
 package TEIPipe::Tools::Read;
 
+use Moose;
+extends 'TEIPipe::Tool';
+
 use strict;
 use warnings;
+use utf8;
 use Getopt::Long qw/GetOptionsFromArray/;
 use File::Basename 'dirname';
 use File::Spec;
@@ -14,16 +18,26 @@ use TEIPipe::Data;
 use Data::Dumper;
 
 
-my %type = map { $_ => 1 } qw/input/;
+sub BUILD {
+  my ($self, $opts) = @_;
+  $self->{input_type} //= { };
+  $self->{result_type} //= {
+    input => 1,
+  };
+  $self->{config} = {
+    local => $opts->{local},
+    global => $opts->{global}
+  };
+  $self->{base_dir} = undef;
+  $self->{task_list} = [];
+  $self->{task_position} = 0;
 
-sub type {
-  shift;
-  my $type = shift;
-  return !!$type{$type} if $type;
-  return keys %type;
+  $self->add_files($opts->{local}->{mode},@{$opts->{local}->{input}});
+  $self->set_base_dir($opts->{local}->{mode},@{$opts->{local}->{input}});
+  $_->{relative_input_path} = File::Spec->abs2rel($_->{absolute_input_path}, $self->{base_dir}) for (@{$self->{task_list}});
 }
 
-sub new  {
+sub DEPRECATED_new  {
   my $this  = shift;
   my $local_opts = shift;
   my %opts = @_;
@@ -55,12 +69,14 @@ sub next {
   return if $self->{task_position} >= @{$self->{task_list}};
   my %task = %{$self->{task_list}->[$self->{task_position}]};
   $self->{task_position} += 1;
-  my $xml = TEIPipe::Formats::TEI::open_xml($task{absolute_input_path});
-  die "ERROR: invalid input file\n" unless $xml;
+  ##my $xml = TEIPipe::Formats::TEI::open_xml($task{absolute_input_path});
+  my $tei = TEIPipe::Formats::TEI->new(path => $task{absolute_input_path});
+  die "ERROR: invalid input file\n" unless $tei;
   return TEIPipe::Data->new(
     task => {%task},
-    text => $xml->{raw},
-    xml => $xml->{dom},
+    #text => $xml->{raw},
+    #xml => $xml->{dom},
+    tei => $tei,
   )
 }
 

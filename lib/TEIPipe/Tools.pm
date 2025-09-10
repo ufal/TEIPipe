@@ -8,6 +8,7 @@ use Exporter 'import';
 use File::Basename 'fileparse';
 use File::Spec;
 
+use TEIPipe::Tool;
 
 sub available_tools {
   map {s/^TEIPipe::Tools:://;$_} find_tools('TEIPipe::Tools');
@@ -17,6 +18,7 @@ sub class_to_path { join '.', join('/', split /::|'/, shift), 'pm' }
 
 sub load_tool {
   my ($tool) = @_;
+print STDERR "LOADING $tool\n";
   my $class = "TEIPipe::Tools::$tool";
   no strict 'refs'; # allow running string as package name
   # Check module name

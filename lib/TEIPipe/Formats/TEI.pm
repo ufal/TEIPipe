@@ -4,11 +4,28 @@ package TEIPipe::Formats::TEI;
 
 use strict;
 use warnings;
+use utf8;
+use open ':utf8';
+binmode STDIN, ":encoding(UTF-8)";
+binmode STDOUT, ":encoding(UTF-8)";
+binmode STDERR, ":encoding(UTF-8)";
 
 use XML::LibXML;
 use XML::LibXML::PrettyPrint;
 use File::Basename 'dirname';
 
+
+sub new {
+  my $this  = shift;
+  my %opts = @_;
+  my $path = $opts{path};
+  my $class = ref($this) || $this;
+  my $self  = open_xml($path);
+  $self->{process} = $opts{process} // [qw/ref/];
+  bless $self, $class;
+
+  return $self;
+}
 
 sub open_xml {
   my $file = shift;
@@ -37,7 +54,7 @@ sub open_xml {
 }
 
 sub to_string {
-  my $doc = shift;
+  my $self = shift;
   my $pp = XML::LibXML::PrettyPrint->new(
     indent_string => "   ",
     element => {
@@ -47,17 +64,18 @@ sub to_string {
         preserves_whitespace => [qw/s seg note ref p desc name change/],
         }
     );
-  $pp->pretty_print($doc);
-  return $doc->toString();
+  $pp->pretty_print($self->{dom});
+  return $self->{dom}->toString();
 }
 
 sub save_to_file {
-  my ($doc,$filename) = @_;
+  my $self = shift;
+  my ($filename) = @_;
   my $dir = dirname($filename);
   File::Path::mkpath($dir) unless -d $dir;
   open FILE, ">$filename";
   binmode FILE;
-  my $raw = to_string($doc);
+  my $raw = $self->to_string();
   print FILE $raw;
   close FILE;
 }
@@ -84,15 +102,31 @@ sub corpus_includes {
   return @includes;
 }
 
-sub tei_texts {
-  my $xml = shift;
-  my @texts;
-  for my $child ($xml->documentElement()->childNodes()){
-    next unless $child->nodeType == XML_ELEMENT_NODE;
-    next unless $child->localName() eq 'text';
-    push @texts, $child;
-  }
-  return @texts;
+sub language {
+  my $element = shift;
+  return unless ref($element) =~ m/LibXML::Element/;
+  my $expr = 'string(ancestor-or-self::*[@*[local-name()="lang" and namespace-uri()="http://www.w3.org/XML/1998/namespace"]][1]'
+              . '/@*[local-name()="lang" and namespace-uri()="http://www.w3.org/XML/1998/namespace"])';
+  return $element->findvalue($expr)
+}
+
+sub config_process {
+  my $self = shift;
+  return $self->{process} // [];
+}
+
+=head2 paragraphs
+
+Paragraphs object that needs to be annotated
+
+  @paragraphs = $object->paragraphs()
+
+=head3 Returns
+
+=cut
+sub paragraphs {
+  my $self = shift;
+  return $self->{dom}->documentElement()->findnodes('//*[local-name() = "text"]//*[local-name() = "seg"]');
 }
 
 1;

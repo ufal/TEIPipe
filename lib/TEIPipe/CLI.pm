@@ -2,6 +2,7 @@ package TEIPipe::CLI;
 
 use strict;
 use warnings;
+use utf8;
 use Getopt::Long;
 use Hash::Merge 'merge';
 
@@ -77,7 +78,7 @@ sub parse_args {
     } else {
       $current_tool = {};
       $current_tool->{setting} = 'global'; # shared setting among all tools (steps)
-      $current_tool->{args} = [];
+      $current_tool->{args} = [$arg];
       push @tasks, $current_tool;
     }
   }
@@ -97,7 +98,8 @@ sub parse_args {
 }
 
 sub parse_global_args {
-  print STDERR "TODO !!!\n";
+  my @args = @_;
+  die "unknown params: ",join(" ", @args) if @args;
 }
 
 1;
