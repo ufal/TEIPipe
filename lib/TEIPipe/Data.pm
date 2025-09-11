@@ -50,7 +50,7 @@ sub load_to_internal_format {
   } else {
     die "unable to load to internal format"; # temporary solution
   }
-  print STDERR Dumper($self->{jsonl});
+  #print STDERR Dumper($self->{jsonl});
   return 1; # succesfully loaded
 }
 
