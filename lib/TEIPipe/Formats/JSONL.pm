@@ -23,7 +23,7 @@ sub new {
 
 sub open_jsonl {
   my $file = shift;
-  print STDERR "TODO: open jsonl not implemented\n";
+  print STDERR "TODO: open jsonl not implemented ($file)\n";
   return ();
 }
 
