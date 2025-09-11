@@ -50,4 +50,4 @@ jobs:
           RELEASE_TESTING: 1
         run: |
           dzil build
-          dzil test
+          dzil test -v
